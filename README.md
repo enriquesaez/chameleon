@@ -1,3 +1,3 @@
 # chameleon
 **Landing page**
-*Layout HTML, SCSS*
+**Layout HTML, SCSS**
