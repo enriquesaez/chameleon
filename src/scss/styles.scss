@@ -9,13 +9,14 @@ html {
       font-family: "Roboto";
       font-size: 1.875em;
     }
-    .container{
-      padding: 1.4em;
-      background-color: var(--secondary);
-      min-height: 25em;
-      margin: 0 auto;
+    #container{
+      box-sizing: border-box;
+      height: 100vh;
       max-width: 80em;
       min-width: 64em;
+      margin: 0 auto;
+      padding: 1.4em;
+      background-color: var(--secondary);
     }
     header {
       height: 4.75em;
