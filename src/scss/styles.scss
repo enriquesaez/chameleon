@@ -1,82 +1,39 @@
-/* MAIN STYLES */
-
 @charset "UTF-8";
 html {
   body {
-    &.background--third {
-      background-color: var(--third);
+    h1 {
+      font-family: "RobotoBold";
+      font-size: 2.5em;
     }
-    font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
-    .container-width_100 {
-      padding-top: 20px;
-      width: 100%;
+    h2 {
+      font-family: "Roboto";
+      font-size: 1.875em;
     }
-    .header__container,
-    .subHeader__container,
-    .app__container,
-    .footer__container {
+    .container{
+      padding: 1.4em;
+      background-color: var(--secondary);
+      min-height: 25em;
       margin: 0 auto;
-      width: 1144px;
-    }
-    .separate--vertical {
-      border-left: 1px solid var(--sixth);
-    }
-
-    .hr-table-customer {
-      border-top: 2px solid #d3d3d3;
+      max-width: 80em;
+      min-width: 64em;
     }
     header {
-      height: 72px;
-      background-color: var(--second);
-    }
-    .subHeader {
-      background-color: var(--third);
-      margin-bottom: 17px;
-    }
-    .app__container {
-      min-height: 600px;
+      height: 4.75em;
     }
   }
 }
-// Media for diferents dekstop screen resolutions
-// @media only screen and (max-width: 2000px) {
-//   html body {
-//     .header__container, .subHeader__container, .app__container, .footer__container {
-//       width: 1800px;
-//     }
-//   }
-// }
+@import "_fonts.scss";
+@import "_components.scss";
+@import "_color.scss";
+@import "_reset.scss";
+@import "_flexbox.scss";
+@import 'grid.scss';
+@include grid;
 
-// @media only screen and (max-width: 1800px) {
-//   html body {
-//     .header__container, .subHeader__container, .app__container, .footer__container {
-//       width: 1600px;
-//     }
-//   }
-// }
 
-// @media only screen and (max-width: 1600px) {
-//   html body {
-//     .header__container, .subHeader__container, .app__container, .footer__container {
-//       width: 1400px;
-//     }
-//   }
-// }
+// @media only screen and (max-width: 1280px) { }
 
-// @media only screen and (max-width: 1400px) {
-//   html body {
-//     .header__container, .subHeader__container, .app__container, .footer__container {
-//       width: 1200px;
-//     }
-//   }
-// }
+// @media only screen and (max-width: 1024px) { }
 
-// @media only screen and (max-width: 1200px) {
-//   html body {
-//     .header__container, .subHeader__container, .app__container, .footer__container {
-//       width: 1144px;
-//     }
-//   }
-// }
+// @media only screen and (max-width: 460px) { }
 
-// END Media for diferents dekstop screen resolutions 

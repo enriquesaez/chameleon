@@ -7,15 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chameleon</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link href="css/fonts.css" rel="stylesheet" type="text/css">
-    <link href="css/color.css" rel="stylesheet" type="text/css">
-    <link href="css/imports.css" rel="stylesheet" type="text/css">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
   </head>
-  <body> 
-    <h1>Hello World</h1>
-    <h2>It's works </h2>
-    <p>Oh, yeah</p>
+  <body>
+    <div class="container">
+      <h1>This is an H1</h1>
+      <h2>This is an H2</h2>
+      <div class="row" style="margin-top: 2em;">
+        <div class="col-6" style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;">Col 6</div>
+        <div class="col-6" style="border: 1px dotted black; padding: 0.5em;">Col 6</div>
+      </div>
+      <div class="row" style="margin-top: 1em;"> 
+        <div class="col-12" style="border: 1px dotted black; padding: 0.5em;">Col 12</div>
+      </div>
+      <div class="row" style="margin-top: 1em;"> 
+        <div class="col-4" style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;">Col 4      </div>
+        <div class="col-4" style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;">Col 4      </div>
+        <div class="col-4" style="border: 1px dotted black; padding: 0.5em;">Col 4</div>
+      </div>
+      <div class="row flex-asis" style="margin-top: 1em;"> 
+        <div class="col-1" style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;">Col 1      </div>
+        <div class="col-1" style="border: 1px dotted black; padding: 0.5em;">Col 1             </div>
+      </div>
+    </div>
   </body>
 </html>
