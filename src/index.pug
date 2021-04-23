@@ -3,19 +3,16 @@ html(lang='en')
   head
     include components/head-content/head-content.pug
   body
+    header.flex.flex-justify-between.flex-align-center
+      .ch-logo
+        img(src="" alt="Chameleon vision")
+      .ch-right.flex
+        .lang-login.flex.flex-align-center
+          span ES
+          span Login
+        .ch.try
+          include components/c-button/c-button.pug
     #container
-      h1 This is an H1
-      h2 This is an H2
-      //-- Example of basic layout:
-      .row(style="margin-top: 2em;")
-        .col-6(style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;") Col 6
-        .col-6(style="border: 1px dotted black; padding: 0.5em;") Col 6
-      .row(style="margin-top: 1em;") 
-        .col-12(style="border: 1px dotted black; padding: 0.5em;") Col 12
-      .row(style="margin-top: 1em;") 
-        .col-4(style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;") Col 4      
-        .col-4(style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;") Col 4      
-        .col-4(style="border: 1px dotted black; padding: 0.5em;") Col 4
-      .row.flex-asis(style="margin-top: 1em;") 
-        .col-1(style="border: 1px dotted black; padding: 0.5em; margin-right: 0.5em;") Col 1      
-        .col-1(style="border: 1px dotted black; padding: 0.5em;") Col 1             
+      .top-area.flex-column.flex-asis
+        h1 La herramienta que te permite tener una visión 360 de tus proyectos
+        include components/c-button/c-button.pug
