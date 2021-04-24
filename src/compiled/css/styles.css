@@ -34,8 +34,7 @@ html body #container-100vw section.body-area-2 {
 }
 html body #container-100vw section.body-area-2 > div:first-child {
   padding: 0em;
-}
-html body #container-100vw section.body-area-2 > div:last-child {
+  overflow: hidden;
   width: 50%;
 }
 html body #container,

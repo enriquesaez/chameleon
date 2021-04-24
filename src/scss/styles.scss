@@ -35,9 +35,11 @@ html {
           > div {
             &:first-child {
               padding: 0em;
+              overflow: hidden;
+              width: 50%;
             }
             &:last-child {
-              width: 50%;
+              
             }
           }
         }
