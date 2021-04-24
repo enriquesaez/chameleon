@@ -26,8 +26,11 @@ html {
     #container-100vw {
       width: 100vw;
       padding: 0em;
-      section {
+      .body-area {
         width: 100%;
+        &:first-child {
+          overflow: hidden;
+        }
       }
     }
     #container,
