@@ -70,25 +70,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 200px) {
-  html {
-    body {
-      #container {
-        width: 100%;
-        section {
-          width: 100%;
-          &.body-area-1 {
-            display: block;
-            div {
-              width: 100%;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media only screen and (max-width: 460px) and (min-width: 200px) {
+@media only screen and (max-width: 768px) {
   html {
     body {
       header {
@@ -98,6 +80,7 @@ html {
       }
       #container {
         width: 100%;
+        padding: 0.9em;
         section {
           width: 100%;
           &.body-area-1 {

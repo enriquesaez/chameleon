@@ -60,26 +60,13 @@ html .layout--border-dashed {
     width: 90%;
   }
 }
-@media only screen and (max-width: 768px) and (min-width: 200px) {
-  html body #container {
-    width: 100%;
-  }
-  html body #container section {
-    width: 100%;
-  }
-  html body #container section.body-area-1 {
-    display: block;
-  }
-  html body #container section.body-area-1 div {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 460px) and (min-width: 200px) {
+@media only screen and (max-width: 768px) {
   html body header .ch-right {
     display: none;
   }
   html body #container {
     width: 100%;
+    padding: 0.9em;
   }
   html body #container section {
     width: 100%;
