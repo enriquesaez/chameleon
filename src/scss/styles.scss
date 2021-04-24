@@ -20,15 +20,19 @@ html {
     header {
       height: 4.75em;
     }
+    #container {
+      max-width: 80em;
+    }
     #container-100vw {
       width: 100vw;
-      margin: 0 auto;
       padding: 0em;
+      section {
+        width: 100%;
+      }
     }
-    #container {
+    #container,
+    #container-100vw {
       box-sizing: border-box;
-      height: 100vh;
-      max-width: 80em;
       margin: 0 auto;
       padding: 1.4em;
       section {
@@ -40,12 +44,13 @@ html {
           margin-bottom: 0.7em;
         }
 
-        &.body-area-1 {
+        &.body-area {
           display: flex;
           display: -webkit-flex;
           > div {
             &:first-child {
               margin-right: 2em;
+              margin-bottom: 2em;
               padding: 0em 1em 0em 1em;
             }
           }
@@ -83,7 +88,7 @@ html {
         padding: 0.9em;
         section {
           width: 100%;
-          &.body-area-1 {
+          &.body-area {
             display: block;
             div {
               width: 100%;
