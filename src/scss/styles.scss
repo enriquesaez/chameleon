@@ -22,14 +22,24 @@ html {
     }
     #container {
       max-width: 80em;
+      padding: 1.4em;
     }
     #container-100vw {
       width: 100vw;
       padding: 0em;
-      .body-area {
-        width: 100%;
-        &:first-child {
-          overflow: hidden;
+      section {
+        &.body-area-2 {
+          display: flex;
+          display: -webkit-flex;
+          width: 100%;
+          > div {
+            &:first-child {
+              padding: 0em;
+            }
+            &:last-child {
+              width: 50%;
+            }
+          }
         }
       }
     }
@@ -37,7 +47,6 @@ html {
     #container-100vw {
       box-sizing: border-box;
       margin: 0 auto;
-      padding: 1.4em;
       section {
         width: 60%;
         margin: 0 auto;
@@ -46,7 +55,6 @@ html {
           text-align: center;
           margin-bottom: 0.7em;
         }
-
         &.body-area {
           display: flex;
           display: -webkit-flex;

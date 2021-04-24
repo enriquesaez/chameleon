@@ -21,22 +21,27 @@ html body header {
 }
 html body #container {
   max-width: 80em;
+  padding: 1.4em;
 }
 html body #container-100vw {
   width: 100vw;
   padding: 0em;
 }
-html body #container-100vw .body-area {
+html body #container-100vw section.body-area-2 {
+  display: flex;
+  display: -webkit-flex;
   width: 100%;
 }
-html body #container-100vw .body-area:first-child {
-  overflow: hidden;
+html body #container-100vw section.body-area-2 > div:first-child {
+  padding: 0em;
+}
+html body #container-100vw section.body-area-2 > div:last-child {
+  width: 50%;
 }
 html body #container,
 html body #container-100vw {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 1.4em;
 }
 html body #container section,
 html body #container-100vw section {
