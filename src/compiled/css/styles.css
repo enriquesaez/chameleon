@@ -92,7 +92,7 @@ html .layout--border-dashed {
     width: 100%;
   }
   html body #container section.body-area {
-    display: block;
+    display: unset;
   }
   html body #container section.body-area div {
     width: 100%;

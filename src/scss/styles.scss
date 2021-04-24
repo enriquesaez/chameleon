@@ -103,7 +103,7 @@ html {
         section {
           width: 100%;
           &.body-area {
-            display: block;
+            display: unset;
             div {
               width: 100%;
             }
