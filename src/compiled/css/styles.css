@@ -16,6 +16,10 @@ html body h2 {
   font-size: 1.875em;
   margin-bottom: 0.6em;
 }
+html body h3 {
+  font-size: 1.5em;
+  font-style: italic;
+}
 html body header {
   height: 4.75em;
 }
@@ -88,6 +92,27 @@ html body #container-100vw section.body-area > div:first-child {
   margin-right: 2em;
   margin-bottom: 2em;
   padding: 0em 1em 0em 1em;
+}
+html body #container section.quote,
+html body #container-100vw section.quote {
+  text-align: center;
+  min-height: 4em;
+  width: 54%;
+}
+html body #container section.quote .quote-img img,
+html body #container-100vw section.quote .quote-img img {
+  width: 30px;
+  height: 27px;
+}
+html body #container section.quote .quote-img img.rotate-180,
+html body #container-100vw section.quote .quote-img img.rotate-180 {
+  transform: rotate(180deg);
+}
+html body #container section.quote .quote-text,
+html body #container-100vw section.quote .quote-text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 html .layout--border-dashed {
   border: 1px dashed #c4c4c4;
