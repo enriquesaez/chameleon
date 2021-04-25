@@ -125,6 +125,9 @@ html .layout--border-dashed {
   html body #container section {
     width: 90%;
   }
+  html body #container section.quote {
+    width: 71%;
+  }
   html body #container-100vw section.body-area-2 > div:last-child {
     margin-left: 2em;
     width: 25em;
@@ -154,6 +157,9 @@ html .layout--border-dashed {
   html body #container section.body-area > div:first-child {
     margin-right: 0em;
     padding: 0em;
+  }
+  html body #container section.quote {
+    width: 100%;
   }
   html body #container-100vw section {
     display: flex;
