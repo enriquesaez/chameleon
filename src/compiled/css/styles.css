@@ -40,11 +40,14 @@ html body #container-100vw section.body-area-2 > div:first-child {
 }
 html body #container-100vw section.body-area-2 > div:last-child {
   margin-left: 3em;
+  border: 1px dashed #cacaca;
+  width: 27em;
 }
 html body #container,
 html body #container-100vw {
   box-sizing: border-box;
   margin: 0 auto;
+  margin-bottom: 3em;
 }
 html body #container section,
 html body #container-100vw section {
@@ -92,10 +95,33 @@ html .layout--border-dashed {
     width: 100%;
   }
   html body #container section.body-area {
+    text-align: center;
     display: unset;
   }
-  html body #container section.body-area div {
+  html body #container section.body-area > div {
     width: 100%;
+  }
+  html body #container section.body-area > div:first-child {
+    margin-right: 0em;
+    padding: 0em;
+  }
+  html body #container-100vw section {
+    display: flex;
+    flex-direction: column;
+  }
+  html body #container-100vw section.body-area-2 {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  html body #container-100vw section.body-area-2 > div:first-child {
+    width: 94%;
+    margin-right: 0em;
+  }
+  html body #container-100vw section.body-area-2 > div:last-child {
+    margin-left: 0em;
+    margin-bottom: 2em;
+    padding: 0em 1.6em;
+    width: unset;
   }
 }
 /* Font-face */

@@ -41,6 +41,8 @@ html {
             }
             &:last-child {
               margin-left: 3em;
+              border: 1px dashed rgb(202, 202, 202);
+              width: 27em;
             }
           }
         }
@@ -50,6 +52,7 @@ html {
     #container-100vw {
       box-sizing: border-box;
       margin: 0 auto;
+      margin-bottom: 3em;
       section {
         width: 60%;
         margin: 0 auto;
@@ -103,9 +106,40 @@ html {
         section {
           width: 100%;
           &.body-area {
+            text-align: center;
             display: unset;
-            div {
+            > div {
               width: 100%;
+              &:first-child {
+                margin-right: 0em;
+                padding: 0em;
+              }
+            }
+          }
+        }
+      }
+      #container-100vw {
+        section {
+          display: flex;
+          flex-direction: column;
+          -ms-flex-direction: column;
+          -webkit-flex-direction: column;
+          &.body-area-2 {
+            text-align: center;
+            flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+            -webkit-flex-direction: column-reverse;
+            > div {
+              &:first-child {
+                width: 94%;
+                margin-right: 0em;
+              }
+              &:last-child {
+                margin-left: 0em;
+                margin-bottom: 2em;
+                padding: 0em 1.6em;
+                width: unset;
+              }
             }
           }
         }
