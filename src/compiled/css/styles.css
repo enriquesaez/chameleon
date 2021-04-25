@@ -114,6 +114,10 @@ html body #container-100vw section.quote .quote-text {
   width: -moz-fit-content;
   width: fit-content;
 }
+html body #container section.cards,
+html body #container-100vw section.cards {
+  width: 87%;
+}
 html .layout--border-dashed {
   border: 1px dashed #c4c4c4;
 }
