@@ -3,6 +3,7 @@ html(lang='en')
   head
     include components/head-content/head-content.pug
   body
+    include components/c-cookies/c-cookies.pug
     header.flex.flex-justify-between.flex-align-center
       .ch-logo
         img(src="img/logo.png" alt="Chameleon vision")
@@ -66,3 +67,5 @@ html(lang='en')
           span Login
         .ch.try
           span Términos y condiciones
+
+include js/c-cookies-js.pug

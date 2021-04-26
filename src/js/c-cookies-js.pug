@@ -1,0 +1,13 @@
+script.
+    function checkAcceptCookies() {
+        if(localStorage.okCookies == 'true') {
+            cookiesBox.style.display = 'none';
+        }
+    }
+    function acceptCookies() {
+        localStorage.okCookies = 'true';
+        cookiesBox.style.display = 'none';
+    }
+    $(document).ready(function () {
+        checkAcceptCookies();
+    });

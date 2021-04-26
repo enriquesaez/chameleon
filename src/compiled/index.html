@@ -11,6 +11,10 @@
     <link rel="shortcut icon" href="favicon.png">
   </head>
   <body>
+    <div id="cookiesBox">
+      <p>This website uses cookies, if you stay here you accept their use. You can read more about the use of cookies in our <a href="politica.html">privacy policy</a></p>
+      <button onclick="acceptCookies()">×</button>
+    </div>
     <header class="flex flex-justify-between flex-align-center">
       <div class="ch-logo"><img src="img/logo.png" alt="Chameleon vision"></div>
       <div class="ch-right flex">
@@ -108,3 +112,17 @@
     </footer>
   </body>
 </html>
+<script>
+  function checkAcceptCookies() {
+      if(localStorage.okCookies == 'true') {
+          cookiesBox.style.display = 'none';
+      }
+  }
+  function acceptCookies() {
+      localStorage.okCookies = 'true';
+      cookiesBox.style.display = 'none';
+  }
+  $(document).ready(function () {
+      checkAcceptCookies();
+  });
+</script>
