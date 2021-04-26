@@ -98,6 +98,7 @@ html body #container-100vw section.quote {
   text-align: center;
   min-height: 4em;
   width: 54%;
+  margin-bottom: 2em;
 }
 html body #container section.quote .quote-img img,
 html body #container-100vw section.quote .quote-img img {
@@ -122,6 +123,13 @@ html body #container-100vw section.cards {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   width: 87%;
+  margin-bottom: 1em;
+}
+html body footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 1.5em 0 1.15em;
 }
 html .layout--border-dashed {
   border: 1px dashed #c4c4c4;

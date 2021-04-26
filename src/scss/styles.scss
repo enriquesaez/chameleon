@@ -98,6 +98,7 @@ html {
           text-align: center;
           min-height: 4em;
           width: 54%;
+          margin-bottom: 2em;
           .quote-img {
             img {
               width: 30px;
@@ -118,8 +119,13 @@ html {
           -ms-flex-pack: justify;
           -webkit-justify-content: space-between;
           width: 87%;
+          margin-bottom: 1em;
         }
       }
+    }
+    footer {
+      height: fit-content;
+      padding: 0 1.5em 0 1.15em;
     }
   }
   .layout--border-dashed {
