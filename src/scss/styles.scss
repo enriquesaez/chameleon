@@ -112,6 +112,11 @@ html {
           }
         }
         &.cards {
+          display: flex;
+          display: -webkit-flex;
+          justify-content: space-between;
+          -ms-flex-pack: justify;
+          -webkit-justify-content: space-between;
           width: 87%;
         }
       }
@@ -121,7 +126,7 @@ html {
     border: 1px dashed #c4c4c4;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (max-width: 769px) {
   html {
     body {
       #container {
@@ -156,7 +161,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   html {
     body {
       header {
@@ -181,6 +186,15 @@ html {
             }
           }
           &.quote {
+            width: 100%;
+          }
+          &.cards {
+            justify-content: space-between;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            flex-direction: column;
+            -ms-flex-direction: column;
+            -webkit-flex-direction: column;
             width: 100%;
           }
         }

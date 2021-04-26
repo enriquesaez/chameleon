@@ -116,13 +116,18 @@ html body #container-100vw section.quote .quote-text {
 }
 html body #container section.cards,
 html body #container-100vw section.cards {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
   width: 87%;
 }
 html .layout--border-dashed {
   border: 1px dashed #c4c4c4;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (max-width: 769px) {
   html body #container {
     width: 100%;
   }
@@ -140,7 +145,7 @@ html .layout--border-dashed {
     width: 75%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   html body header .ch-right {
     display: none;
   }
@@ -163,6 +168,13 @@ html .layout--border-dashed {
     padding: 0em;
   }
   html body #container section.quote {
+    width: 100%;
+  }
+  html body #container section.cards {
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    flex-direction: column;
     width: 100%;
   }
   html body #container-100vw section {
@@ -235,6 +247,7 @@ html body #container-100vw section.body-area-3 .ch-image {
   border-radius: 8px;
   box-shadow: 0px 0px 4px 4px #ececec;
   padding: 1em 2em;
+  margin-bottom: 0.9em;
   box-sizing: border-box;
 }
 .c-card .card-square img {
@@ -254,6 +267,33 @@ html body #container-100vw section.body-area-3 .ch-image {
   font-size: 0.9em;
 }
 
+@media only screen and (max-width: 768px) {
+  .c-card {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+  }
+  .c-card .card-square {
+    width: 74%;
+    height: auto;
+    flex-direction: unset;
+    padding: 1em 1.2em;
+  }
+  .c-card .card-square img {
+    margin-bottom: 0;
+    margin-right: 1em;
+  }
+  .c-card .card-square .card-text {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .c-card .card-square {
+    width: 100%;
+  }
+}
 /* END Web components */
 /* Color variables */
 :root {
