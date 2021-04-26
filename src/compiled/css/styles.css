@@ -27,96 +27,96 @@ html body #container {
   max-width: 80em;
   padding: 1.4em;
 }
-html body #container-100vw {
-  width: 100vw;
+html body #container-100 {
+  width: 100%;
   padding: 0em;
 }
-html body #container-100vw section.body-area-2 {
+html body #container-100 section.body-area-2 {
   display: flex;
   display: -webkit-flex;
   width: 100%;
 }
-html body #container-100vw section.body-area-2 > div:first-child {
+html body #container-100 section.body-area-2 > div:first-child {
   padding: 0em;
   overflow: hidden;
   width: 50%;
   margin-right: 3em;
 }
-html body #container-100vw section.body-area-2 > div:last-child {
+html body #container-100 section.body-area-2 > div:last-child {
   margin-left: 3em;
   width: 27em;
 }
-html body #container-100vw section.body-area-3 {
+html body #container-100 section.body-area-3 {
   display: flex;
   display: -webkit-flex;
   width: 100%;
 }
-html body #container-100vw section.body-area-3 .ch-copy,
-html body #container-100vw section.body-area-3 .ch-image {
+html body #container-100 section.body-area-3 .ch-copy,
+html body #container-100 section.body-area-3 .ch-image {
   width: 50%;
 }
-html body #container-100vw section.body-area-3 .ch-copy {
+html body #container-100 section.body-area-3 .ch-copy {
   margin-right: 2em;
 }
-html body #container-100vw section.body-area-3 .ch-copy .ch-copy--container {
+html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
   width: 45%;
 }
-html body #container-100vw section.body-area-3 .ch-image {
+html body #container-100 section.body-area-3 .ch-image {
   margin-left: 2em;
   overflow: hidden;
 }
 html body #container,
-html body #container-100vw {
+html body #container-100 {
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 3em;
 }
 html body #container section,
-html body #container-100vw section {
+html body #container-100 section {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 4em;
 }
 html body #container section h1,
-html body #container-100vw section h1 {
+html body #container-100 section h1 {
   text-align: center;
   margin-bottom: 0.7em;
 }
 html body #container section.body-area,
-html body #container-100vw section.body-area {
+html body #container-100 section.body-area {
   display: flex;
   display: -webkit-flex;
 }
 html body #container section.body-area > div:first-child,
-html body #container-100vw section.body-area > div:first-child {
+html body #container-100 section.body-area > div:first-child {
   margin-right: 2em;
   margin-bottom: 2em;
   padding: 0em 1em 0em 1em;
 }
 html body #container section.quote,
-html body #container-100vw section.quote {
+html body #container-100 section.quote {
   text-align: center;
   min-height: 4em;
   width: 54%;
   margin-bottom: 2em;
 }
 html body #container section.quote .quote-img img,
-html body #container-100vw section.quote .quote-img img {
+html body #container-100 section.quote .quote-img img {
   width: 30px;
   height: 27px;
 }
 html body #container section.quote .quote-img img.rotate-180,
-html body #container-100vw section.quote .quote-img img.rotate-180 {
+html body #container-100 section.quote .quote-img img.rotate-180 {
   transform: rotate(180deg);
 }
 html body #container section.quote .quote-text,
-html body #container-100vw section.quote .quote-text {
+html body #container-100 section.quote .quote-text {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 html body #container section.cards,
-html body #container-100vw section.cards {
+html body #container-100 section.cards {
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
@@ -145,11 +145,11 @@ html .layout--border-dashed {
   html body #container section.quote {
     width: 71%;
   }
-  html body #container-100vw section.body-area-2 > div:last-child {
+  html body #container-100 section.body-area-2 > div:last-child {
     margin-left: 2em;
     width: 25em;
   }
-  html body #container-100vw section.body-area-3 .ch-copy .ch-copy--container {
+  html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
     width: 75%;
   }
 }
@@ -185,41 +185,41 @@ html .layout--border-dashed {
     flex-direction: column;
     width: 100%;
   }
-  html body #container-100vw section {
+  html body #container-100 section {
     display: flex;
     flex-direction: column;
   }
-  html body #container-100vw section.body-area-2 {
+  html body #container-100 section.body-area-2 {
     text-align: center;
     flex-direction: column-reverse;
   }
-  html body #container-100vw section.body-area-2 > div:first-child {
+  html body #container-100 section.body-area-2 > div:first-child {
     width: 94%;
     margin-right: 0em;
   }
-  html body #container-100vw section.body-area-2 > div:last-child {
+  html body #container-100 section.body-area-2 > div:last-child {
     margin-left: 0em;
     margin-bottom: 2em;
     padding: 0em 1.6em;
     width: unset;
   }
-  html body #container-100vw section.body-area-3 {
+  html body #container-100 section.body-area-3 {
     flex-direction: column;
   }
-  html body #container-100vw section.body-area-3 .ch-copy,
-html body #container-100vw section.body-area-3 .ch-image {
+  html body #container-100 section.body-area-3 .ch-copy,
+html body #container-100 section.body-area-3 .ch-image {
     width: 100%;
   }
-  html body #container-100vw section.body-area-3 .ch-copy {
+  html body #container-100 section.body-area-3 .ch-copy {
     text-align: center;
     margin-right: 0;
     margin-bottom: 3em;
   }
-  html body #container-100vw section.body-area-3 .ch-copy .ch-copy--container {
+  html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
     width: 100%;
     padding: 0em 1.6em;
   }
-  html body #container-100vw section.body-area-3 .ch-image {
+  html body #container-100 section.body-area-3 .ch-image {
     margin-left: 0;
     overflow: hidden;
     width: 94%;
