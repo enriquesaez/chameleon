@@ -66,6 +66,8 @@ html {
               overflow: hidden;
               width: 50%;
               margin-right: 3em;
+              display: flex;
+              justify-content: flex-end;
             }
             &:last-child {
               margin-left: 3em;
@@ -88,7 +90,7 @@ html {
             width: 50%;
           }
           .ch-copy {
-            margin-right: 2em;
+            margin-right: 4em;
             .ch-copy--container {
               width: 45%;
               p {
@@ -100,7 +102,7 @@ html {
             }
           }
           .ch-image {
-            margin-left: 2em;
+            margin-left: 4em;
             overflow: hidden;
           }
         }
