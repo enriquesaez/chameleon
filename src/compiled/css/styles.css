@@ -155,7 +155,7 @@ html body #container-100 section.cards {
   justify-content: space-between;
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
-  width: 87%;
+  width: 76%;
   margin-bottom: 1em;
 }
 html body footer {
@@ -172,6 +172,9 @@ html .layout--border-dashed {
   html body #container section.body-area {
     width: 73%;
   }
+  html body #container section.cards {
+    width: 94%;
+  }
   html body #container-100 section.body-area-2 > div:last-child {
     margin-left: 2em;
     width: 25em;
@@ -180,7 +183,21 @@ html .layout--border-dashed {
     width: 75%;
   }
 }
+@media only screen and (max-width: 1023px) {
+  html body #container section.body-area {
+    width: 93%;
+  }
+}
 @media only screen and (max-width: 768px) {
+  html body #container section.cards {
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
   html body header .ch-right {
     display: none;
   }
@@ -189,6 +206,9 @@ html .layout--border-dashed {
     padding: 0.9em;
   }
   html body #container section {
+    width: 100%;
+  }
+  html body #container section.top-area {
     width: 100%;
   }
   html body #container section.body-area {
@@ -319,6 +339,11 @@ html body #container-100 section.body-area-3 .ch-image {
   font-size: 0.9em;
 }
 
+@media only screen and (max-width: 1366px) {
+  .c-card .card-square {
+    width: 13.75em;
+  }
+}
 @media only screen and (max-width: 768px) {
   .c-card {
     display: flex;
@@ -328,7 +353,7 @@ html body #container-100 section.body-area-3 .ch-image {
     -webkit-justify-content: center;
   }
   .c-card .card-square {
-    width: 74%;
+    width: 100%;
     height: auto;
     flex-direction: unset;
     padding: 1em 1.2em;
@@ -339,11 +364,6 @@ html body #container-100 section.body-area-3 .ch-image {
   }
   .c-card .card-square .card-text {
     text-align: left;
-  }
-}
-@media only screen and (max-width: 568px) {
-  .c-card .card-square {
-    width: 100%;
   }
 }
 #cookiesBox {
