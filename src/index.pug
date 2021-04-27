@@ -2,6 +2,10 @@ doctype html
 html(lang='en')
   head
     include components/head-content/head-content.pug
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap' rel='stylesheet')
+
   body
     include components/c-cookies/c-cookies.pug
     header.flex.flex-justify-between.flex-align-center
@@ -23,7 +27,7 @@ html(lang='en')
           h2 Conoce el estado de todos tus proyectos
           p Visualiza el estado global de todos tus proyectos. Obtén información del progreso, bloqueos y dependencias.
         div.flex.flex-justify-center
-          img(src="https://dummyimage.com/300x270/ccc/fff", alt="")
+          img(src="img/img-320.png", alt="")
     
     #container-100
       section.body-area-2

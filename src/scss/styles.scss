@@ -12,12 +12,18 @@ html {
     }
     h1 {
       font-size: 2.5em;
+      font-family: "Fira Sans", sans-serif;
+      font-weight: 700;
     }
     h2 {
+      font-family: "Fira Sans", sans-serif;
       font-size: 1.875em;
       margin-bottom: 0.6em;
+      line-height: 1.4em;
+      font-weight: 700;
     }
     h3 {
+      font-family: "Fira Sans", sans-serif;
       font-size: 1.5em;
       font-style: italic;
     }
@@ -25,13 +31,34 @@ html {
       height: 4.75em;
     }
     #container {
-      max-width: 80em;
+      max-width: 90em;
       padding: 1.4em;
+      section {
+        &.top-area {
+          width: 60%;
+        }
+        &.body-area {
+          width: 60%;
+          > div {
+            p {
+              font-family: "Fira Sans", sans-serif;
+              font-size: 1.5em;
+              line-height: 1.4em;
+              color: #9b9b9b;
+            }
+            img {
+              width: 300px;
+              height: 243px;
+            }
+          }
+        } 
+      }
     }
     #container-100 {
       width: 100%;
       padding: 0em;
       section {
+        width: 60%;
         &.body-area-2 {
           display: flex;
           display: -webkit-flex;
@@ -76,7 +103,6 @@ html {
       margin: 0 auto;
       margin-bottom: 3em;
       section {
-        width: 60%;
         margin: 0 auto;
         margin-bottom: 4em;
         h1 {
@@ -132,16 +158,14 @@ html {
     border: 1px dashed #c4c4c4;
   }
 }
-@media only screen and (max-width: 1024px) and (max-width: 769px) {
+@media only screen and (max-width: 1024px) {
   html {
     body {
       #container {
-        width: 100%;
         section {
-          width: 90%;
-          &.quote {
-            width: 71%;
-          }
+          &.body-area {
+            width: 73%;
+          } 
         }
       }
       #container-100 {
