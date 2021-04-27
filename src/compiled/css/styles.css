@@ -1,5 +1,4 @@
 html body {
-  font-family: "Roboto";
   background-color: var(--primary);
 }
 html body header {
@@ -11,18 +10,16 @@ html body header {
 }
 html body h1 {
   font-size: 2.5em;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 700;
+  font-family: "FiraSans-SemiBold", sans-serif;
 }
 html body h2 {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "FiraSans-Regular", sans-serif;
   font-size: 1.875em;
   margin-bottom: 0.6em;
   line-height: 1.4em;
-  font-weight: 700;
 }
 html body h3 {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "FiraSans-Regular", sans-serif;
   font-size: 1.5em;
   font-style: italic;
 }
@@ -40,7 +37,7 @@ html body #container section.body-area {
   width: 60%;
 }
 html body #container section.body-area > div p {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "FiraSans-Light", sans-serif;
   font-size: 1.5em;
   line-height: 1.4em;
   color: #9b9b9b;
@@ -71,6 +68,12 @@ html body #container-100 section.body-area-2 > div:last-child {
   margin-left: 3em;
   width: 27em;
 }
+html body #container-100 section.body-area-2 > div p {
+  font-family: "FiraSans-Light", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #9b9b9b;
+}
 html body #container-100 section.body-area-3 {
   display: flex;
   display: -webkit-flex;
@@ -85,6 +88,12 @@ html body #container-100 section.body-area-3 .ch-copy {
 }
 html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
   width: 45%;
+}
+html body #container-100 section.body-area-3 .ch-copy .ch-copy--container p {
+  font-family: "FiraSans-Light", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #9b9b9b;
 }
 html body #container-100 section.body-area-3 .ch-image {
   margin-left: 2em;
@@ -247,12 +256,28 @@ html body #container-100 section.body-area-3 .ch-image {
 }
 /* Font-face */
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf") format("woff2"), url("../fonts/Roboto-Regular.ttf") format("woff");
+  font-family: "FiraSans-Light";
+  src: url("../fonts/FiraSans-Light.ttf") format("woff2"), url("../fonts/FiraSans-Light.ttf") format("woff");
 }
 @font-face {
-  font-family: "RobotoBold";
-  src: url("../fonts/Roboto-Bold.ttf") format("woff2"), url("../fonts/Roboto-Bold.ttf") format("woff");
+  font-family: "FiraSans-Regular";
+  src: url("../fonts/FiraSans-Regular.ttf") format("woff2"), url("../fonts/FiraSans-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "FiraSans-Medium";
+  src: url("../fonts/FiraSans-Medium.ttf") format("woff2"), url("../fonts/FiraSans-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "FiraSans-SemiBold";
+  src: url("../fonts/FiraSans-SemiBold.ttf") format("woff2"), url("../fonts/FiraSans-SemiBold.ttf") format("woff");
+}
+@font-face {
+  font-family: "FiraSans-Bold";
+  src: url("../fonts/FiraSans-Bold.ttf") format("woff2"), url("../fonts/FiraSans-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "FiraSans-ExtraBold";
+  src: url("../fonts/FiraSans-ExtraBold.ttf") format("woff2"), url("../fonts/FiraSans-ExtraBold.ttf") format("woff");
 }
 /* END ont-face */
 /* Web components */

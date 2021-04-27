@@ -1,11 +1,32 @@
 /* Font-face */
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.ttf') format("woff2"), url('../fonts/Roboto-Regular.ttf') format("woff");
+  font-family: 'FiraSans-Light';
+  src: url('../fonts/FiraSans-Light.ttf') format("woff2"), url('../fonts/FiraSans-Light.ttf') format("woff");
 }
 
 @font-face {
-  font-family: 'RobotoBold';
-  src: url('../fonts/Roboto-Bold.ttf') format("woff2"), url('../fonts/Roboto-Bold.ttf') format("woff");
+  font-family: 'FiraSans-Regular';
+  src: url('../fonts/FiraSans-Regular.ttf') format("woff2"), url('../fonts/FiraSans-Regular.ttf') format("woff");
 }
+
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('../fonts/FiraSans-Medium.ttf') format("woff2"), url('../fonts/FiraSans-Medium.ttf') format("woff");
+}
+
+@font-face {
+  font-family: 'FiraSans-SemiBold';
+  src: url('../fonts/FiraSans-SemiBold.ttf') format("woff2"), url('../fonts/FiraSans-SemiBold.ttf') format("woff");
+}
+
+@font-face {
+  font-family: 'FiraSans-Bold';
+  src: url('../fonts/FiraSans-Bold.ttf') format("woff2"), url('../fonts/FiraSans-Bold.ttf') format("woff");
+}
+
+@font-face {
+  font-family: 'FiraSans-ExtraBold';
+  src: url('../fonts/FiraSans-ExtraBold.ttf') format("woff2"), url('../fonts/FiraSans-ExtraBold.ttf') format("woff");
+}
+
 /* END ont-face */
