@@ -1,5 +1,10 @@
-#cookiesBox
-  p
-    | This website uses cookies, if you stay here you accept their use. You can read more about the use of cookies in our 
-    a(href='politica.html') privacy policy
-  button(onclick='acceptCookies()') ×
+#cookiesBox.flex.flex-column
+  .cookies-header.flex.flex-justify-end.flex-align-end
+    button(onclick='acceptCookies()') ×
+  .coockies-body.flex
+    .col-img-cookie
+      img(src="img/img-cookie.png", alt="")
+    p Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. Si acepta o continúa navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información 
+      span 
+        a(href='politica.html') aquí
+  

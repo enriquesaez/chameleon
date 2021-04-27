@@ -10,8 +10,9 @@ html {
       margin-bottom: 2em;
     }
     h1 {
-      font-size: 2.5em;
-      font-family: "FiraSans-SemiBold", sans-serif;
+      font-size: 2.8em;
+      font-family: "FiraSans-Bold", sans-serif;
+      line-height: 1.2em;
     }
     h2 {
       font-family: "FiraSans-Regular", sans-serif;
@@ -164,9 +165,6 @@ html {
       height: fit-content;
       padding: 0 1.5em 0 1.15em;
     }
-  }
-  .layout--border-dashed {
-    border: 1px dashed #c4c4c4;
   }
 }
 @media only screen and (max-width: 1024px) {

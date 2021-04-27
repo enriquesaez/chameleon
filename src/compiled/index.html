@@ -11,9 +11,14 @@
     <link rel="shortcut icon" href="favicon.png">
   </head>
   <body>
-    <div id="cookiesBox">
-      <p>This website uses cookies, if you stay here you accept their use. You can read more about the use of cookies in our <a href="politica.html">privacy policy</a></p>
-      <button onclick="acceptCookies()">×</button>
+    <div class="flex flex-column" id="cookiesBox">
+      <div class="cookies-header flex flex-justify-end flex-align-end">
+        <button onclick="acceptCookies()">×</button>
+      </div>
+      <div class="coockies-body flex">
+        <div class="col-img-cookie"><img src="img/img-cookie.png" alt=""></div>
+        <p>Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. Si acepta o continúa navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información <span> <a href="politica.html">aquí</a></span></p>
+      </div>
     </div>
     <header class="flex flex-justify-between flex-align-center">
       <div class="ch-logo"><img src="img/logo.png" alt="Chameleon vision"></div>
