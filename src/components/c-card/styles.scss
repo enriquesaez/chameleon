@@ -35,10 +35,13 @@
     }
   }
 }
-@media only screen and (max-width: 1366px) {
+
+@media only screen and (max-width: 1365px) and (min-width: 769px) {
   .c-card {
     .card-square {
-      width: 13.75em;
+      width: 10.55em;
+      height: 16.45em;
+      padding: 1.3em 1.1em;
     }
   }
 }

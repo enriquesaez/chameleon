@@ -167,6 +167,53 @@ html {
     }
   }
 }
+
+@media only screen and (max-width: 1400px) and (min-width: 1366px) { 
+  html {
+    body {
+      #container {
+        section {
+          &.cards {
+            width: 80%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1365px) and (min-width: 769px) {
+  html {
+    body {
+      #container {
+        section {
+          &.cards {
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 1025px) {
+  html {
+    body {
+      #container {
+        section {
+          &.cards {
+            width: 79%;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   html {
     body {
@@ -176,7 +223,7 @@ html {
             width: 73%;
           }
           &.cards {
-            width: 94%;
+            width: 74%;
           }
         }
       }
@@ -210,6 +257,20 @@ html {
         section {
           &.body-area {
             width: 93%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 769px){
+  html {
+    body {
+      #container {
+        section {
+          &.cards {
+            width: 90%;
           }
         }
       }

@@ -168,12 +168,31 @@ html body footer {
   padding: 0 1.5em 0 1.15em;
 }
 
+@media only screen and (max-width: 1400px) and (min-width: 1366px) {
+  html body #container section.cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (max-width: 1365px) and (min-width: 769px) {
+  html body #container section.cards {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (max-width: 1080px) and (min-width: 1025px) {
+  html body #container section.cards {
+    width: 79%;
+  }
+}
 @media only screen and (max-width: 1024px) {
   html body #container section.body-area {
     width: 73%;
   }
   html body #container section.cards {
-    width: 94%;
+    width: 74%;
   }
   html body #container-100 section.body-area-2 > div:last-child {
     margin-left: 2em;
@@ -186,6 +205,11 @@ html body footer {
 @media only screen and (max-width: 1023px) {
   html body #container section.body-area {
     width: 93%;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+  html body #container section.cards {
+    width: 90%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -338,9 +362,11 @@ html body #container-100 section.body-area-3 .ch-image {
   font-size: 0.9em;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1365px) and (min-width: 769px) {
   .c-card .card-square {
-    width: 13.75em;
+    width: 10.55em;
+    height: 16.45em;
+    padding: 1.3em 1.1em;
   }
 }
 @media only screen and (max-width: 768px) {
