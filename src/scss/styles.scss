@@ -383,7 +383,7 @@ html {
             .ch-image {
               margin-left: 0;
               overflow: hidden;
-              width: 94%;
+              width: 88%;
               position: relative;
               left: 40px;
             }
@@ -400,7 +400,3 @@ html {
 @import "_flexbox.scss";
 @import "grid.scss";
 @include grid;
-
-// @media only screen and (max-width: 1280px) { }
-
-// @media only screen and (max-width: 1024px) { }
