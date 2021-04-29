@@ -24,7 +24,14 @@
       <div class="ch-logo"><img src="img/logo.png" alt="Chameleon vision"></div>
       <div class="ch-right flex">
         <div class="lang-login flex flex-align-center">
-          <div class="box-lang"> <span>ES</span></div>
+          <div class="box-lang"> 
+            <div class="navbar">
+              <div class="dropdown">
+                <button class="dropbtn" onclick="desp()">ES</button>
+                <div class="dropdown-content" id="myDropdown"><a>EN</a></div>
+              </div>
+            </div>
+          </div>
           <div class="box-login"> <span>Login</span></div>
         </div>
         <div class="ch try">
@@ -133,4 +140,17 @@
   $(document).ready(function () {
       checkAcceptCookies();
   });
+</script>
+<script>
+  function desp() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+          }
+      }
+  }
 </script>

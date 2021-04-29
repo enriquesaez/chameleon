@@ -12,14 +12,56 @@ html {
         .lang-login {
           .box-lang {
             margin-right: 1em;
-            span {
-              color: black
+            .navbar {
+              overflow: hidden;
+              a {
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+            }
+            .dropdown {
+              float: left;
+              overflow: hidden;
+
+              .dropbtn {
+                cursor: pointer;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: black;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0em 0em 0.5em 0em;
+              }
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #dddddd;
+              min-width: 33px;
+              z-index: 1;
+              a {
+                float: none;
+                color: black;
+                padding: 0.5em;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                cursor: pointer;
+              }
+            }
+            .show {
+              display: block;
             }
           }
           .box-login {
             margin-right: 1em;
+            margin-bottom: 0.5em;
             span {
-              color: black
+              color: black;
             }
           }
         }
@@ -181,7 +223,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 1366px) { 
+@media only screen and (max-width: 1400px) and (min-width: 1366px) {
   html {
     body {
       #container {
@@ -277,7 +319,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 769px){
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
   html {
     body {
       #container {

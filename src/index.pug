@@ -11,7 +11,12 @@ html(lang='en')
       .ch-right.flex
         .lang-login.flex.flex-align-center
           .box-lang 
-            span ES
+            .navbar
+              .dropdown
+                button.dropbtn(onclick='desp()')
+                  | ES
+                #myDropdown.dropdown-content
+                  a EN
           .box-login 
             span Login
         .ch.try
@@ -72,3 +77,4 @@ html(lang='en')
           span Términos y condiciones
 
 include js/c-cookies-js.pug
+include js/c-dropdown-js.pug
