@@ -58,7 +58,7 @@ html body header .ch-right .lang-login .box-login {
   margin-right: 1em;
   margin-bottom: 0.5em;
 }
-html body header .ch-right .lang-login .box-login span {
+html body header .ch-right .lang-login .box-login span a {
   color: black;
 }
 html body h1 {
