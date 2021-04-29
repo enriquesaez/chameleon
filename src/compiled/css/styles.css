@@ -8,6 +8,18 @@ html body header {
   padding: 0 1.5em 0 1.15em;
   margin-bottom: 2em;
 }
+html body header .ch-right .lang-login .box-lang {
+  margin-right: 1em;
+}
+html body header .ch-right .lang-login .box-lang span {
+  color: black;
+}
+html body header .ch-right .lang-login .box-login {
+  margin-right: 1em;
+}
+html body header .ch-right .lang-login .box-login span {
+  color: black;
+}
 html body h1 {
   font-size: 2.8em;
   font-family: "FiraSans-Bold", sans-serif;

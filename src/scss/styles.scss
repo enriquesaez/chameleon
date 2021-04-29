@@ -8,6 +8,22 @@ html {
       height: 4.75em;
       padding: 0 1.5em 0 1.15em;
       margin-bottom: 2em;
+      .ch-right {
+        .lang-login {
+          .box-lang {
+            margin-right: 1em;
+            span {
+              color: black
+            }
+          }
+          .box-login {
+            margin-right: 1em;
+            span {
+              color: black
+            }
+          }
+        }
+      }
     }
     h1 {
       font-size: 2.8em;
