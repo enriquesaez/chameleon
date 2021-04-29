@@ -4,7 +4,7 @@ html body {
 html body header {
   box-sizing: border-box;
   width: 100%;
-  height: 9.375em;
+  height: 4.75em;
   padding: 0 1.5em 0 1.15em;
   margin-bottom: 2em;
 }
@@ -23,9 +23,6 @@ html body h3 {
   font-family: "FiraSans-Regular", sans-serif;
   font-size: 1.5em;
   font-style: italic;
-}
-html body header {
-  height: 4.75em;
 }
 html body #container {
   max-width: 90em;
@@ -757,49 +754,49 @@ table {
 }
 
 .col-1-lg {
-  width: 8.3333333333%;
+  width: 8.3333333333 %;
 }
 
 .col-2-lg {
-  width: 16.6666666667%;
+  width: 16.6666666667 %;
 }
 
 .col-3-lg {
-  width: 25%;
+  width: 25 %;
 }
 
 .col-4-lg {
-  width: 33.3333333333%;
+  width: 33.3333333333 %;
 }
 
 .col-5-lg {
-  width: 41.6666666667%;
+  width: 41.6666666667 %;
 }
 
 .col-6-lg {
-  width: 50%;
+  width: 50 %;
 }
 
 .col-7-lg {
-  width: 58.3333333333%;
+  width: 58.3333333333 %;
 }
 
 .col-8-lg {
-  width: 66.6666666667%;
+  width: 66.6666666667 %;
 }
 
 .col-9-lg {
-  width: 75%;
+  width: 75 %;
 }
 
 .col-10-lg {
-  width: 83.3333333333%;
+  width: 83.3333333333 %;
 }
 
 .col-11-lg {
-  width: 91.6666666667%;
+  width: 91.6666666667 %;
 }
 
 .col-12-lg {
-  width: 100%;
+  width: 100 %;
 }
