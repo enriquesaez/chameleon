@@ -1,6 +1,27 @@
 /* Color variables */
 :root {
-  --primary: #ffffff;
-  --secondary: #cccccc;
-  --tertiary: #666666;
+  --primary: #112133;
+  --brand-primary: #5bb99a;
+  --brand-medium: #3f7bbf;
+  --brand-light: #91cdff;
+  --scale--darkest: #4b4d4e;
+  --scale--darker: #6e7172;
+  --scale: #929596;
+  --scale-lighter: #c1c2c3;
+  --scale--lighter: #b6b8b9;
+  --scale--lightest: #dbdcdc;
+  --darker: #000000;
+  --lighter: #ffffff;
+  --states-sucess: #77e6a7;
+  --states-warning: #ffc752;
+  --states-danger: #ff6867;
+  --interactive-primary-state-disabled: rgba(91, 185, 154, 0.48);
+  --interactive-primary-state-hover: #329071;
+  --interactive-link-state-disabled: rgba(63, 123, 191, 0.48);
+  --interactive-link-state-hover: #2f5c8f;
+  --interactive-link-state-active: #203d60;
+  --interactive-secondary-state-disabled: rgba(182, 184, 185, 0.48);
+  --interactive-secondary-state-hover: #8d8f90;
+  --interactive-secondary-state-active: #646667;
+  --interactive-primary-state-active: #1a674c;
 }
