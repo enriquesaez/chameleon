@@ -1,7 +1,23 @@
 @charset "UTF-8";
 html {
   body {
-    background-color: var(--primary);
+    background-color: var(--lighter);
+    h1 {
+      font-size: 4em;
+      font-family: 'Barlow-Bold', sans-serif;
+      line-height: 1.13;
+    }
+    h2 {
+      font-family: 'Barlow-Medium', sans-serif;
+      font-size: 2em;
+      margin-bottom: 0.6em;
+      line-height: 1.25;
+    }
+    h3 {
+      font-family: "Barlow-MediumItalic", sans-serif;
+      font-size: 1.5em;
+      line-height: 1.33;
+    }
     header {
       box-sizing: border-box;
       width: 100%;
@@ -70,37 +86,22 @@ html {
         }
       }
     }
-    h1 {
-      font-size: 2.8em;
-      font-family: "FiraSans-Bold", sans-serif;
-      line-height: 1.2em;
-    }
-    h2 {
-      font-family: "FiraSans-Regular", sans-serif;
-      font-size: 1.875em;
-      margin-bottom: 0.6em;
-      line-height: 1.4em;
-    }
-    h3 {
-      font-family: "FiraSans-Regular", sans-serif;
-      font-size: 1.5em;
-      font-style: italic;
-    }
+
     #container {
       max-width: 90em;
       padding: 1.4em;
       section {
         &.top-area {
-          width: 60%;
+          width: 75%;
         }
         &.body-area {
           width: 60%;
           > div {
             p {
-              font-family: "FiraSans-Light", sans-serif;
+              font-family: 'Barlow-Regular', sans-serif;
               font-size: 1.5em;
-              line-height: 1.4em;
-              color: #9b9b9b;
+              line-height: 1.33;
+              color: var(--scale--darker);
             }
             img {
               width: 300px;
@@ -133,10 +134,10 @@ html {
               width: 27em;
             }
             p {
-              font-family: "FiraSans-Light", sans-serif;
+              font-family: 'Barlow-Regular', sans-serif;
               font-size: 1.5em;
-              line-height: 1.4em;
-              color: #9b9b9b;
+              line-height: 1.33;
+              color: var(--scale--darker);
             }
           }
         }
@@ -151,12 +152,12 @@ html {
           .ch-copy {
             margin-right: 4em;
             .ch-copy--container {
-              width: 45%;
+              width: 60%;
               p {
-                font-family: "FiraSans-Light", sans-serif;
+                font-family: 'Barlow-Regular', sans-serif;
                 font-size: 1.5em;
-                line-height: 1.4em;
-                color: #9b9b9b;
+                line-height: 1.33;
+                color: var(--scale--darker);
               }
             }
           }
@@ -205,7 +206,7 @@ html {
             }
           }
           .quote-text {
-            width: fit-content;
+            width: auto;
           }
         }
         &.cards {

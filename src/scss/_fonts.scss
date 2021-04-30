@@ -29,4 +29,25 @@
   src: url('../fonts/FiraSans-ExtraBold.ttf') format("woff2"), url('../fonts/FiraSans-ExtraBold.ttf') format("woff");
 }
 
+/* Chameleon Vision fonts */
+@font-face {
+  font-family: 'Barlow-Regular';
+  src: url('../fonts/Barlow-Regular.ttf') format("woff2"), url('../fonts/Barlow-Regular.ttf') format("woff");
+}
+
+@font-face {
+  font-family: 'Barlow-Bold';
+  src: url('../fonts/Barlow-Bold.ttf') format("woff2"), url('../fonts/Barlow-Bold.ttf') format("woff");
+}
+
+@font-face {
+  font-family: 'Barlow-Medium';
+  src: url('../fonts/Barlow-Medium.ttf') format("woff2"), url('../fonts/Barlow-Medium.ttf') format("woff");
+}
+
+@font-face {
+  font-family: 'Barlow-MediumItalic';
+  src: url('../fonts/Barlow-MediumItalic.ttf') format("woff2"), url('../fonts/Barlow-MediumItalic.ttf') format("woff");
+}
+
 /* END ont-face */
