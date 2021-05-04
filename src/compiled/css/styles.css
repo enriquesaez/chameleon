@@ -262,12 +262,20 @@ html body footer {
   }
 }
 @media only screen and (max-width: 768px) {
+  html body h1 {
+    font-size: 3em;
+  }
   html body #container section.cards {
     justify-content: space-between;
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     flex-direction: column;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  html body h1 {
+    font-size: 2em;
   }
 }
 @media only screen and (max-width: 767px) {

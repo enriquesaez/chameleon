@@ -4,11 +4,11 @@ html {
     background-color: var(--lighter);
     h1 {
       font-size: 4em;
-      font-family: 'Barlow-Bold', sans-serif;
+      font-family: "Barlow-Bold", sans-serif;
       line-height: 1.13;
     }
     h2 {
-      font-family: 'Barlow-Medium', sans-serif;
+      font-family: "Barlow-Medium", sans-serif;
       font-size: 2em;
       margin-bottom: 0.6em;
       line-height: 1.25;
@@ -98,7 +98,7 @@ html {
           width: 60%;
           > div {
             p {
-              font-family: 'Barlow-Regular', sans-serif;
+              font-family: "Barlow-Regular", sans-serif;
               font-size: 1.5em;
               line-height: 1.33;
               color: var(--scale--darker);
@@ -134,7 +134,7 @@ html {
               width: 27em;
             }
             p {
-              font-family: 'Barlow-Regular', sans-serif;
+              font-family: "Barlow-Regular", sans-serif;
               font-size: 1.5em;
               line-height: 1.33;
               color: var(--scale--darker);
@@ -154,7 +154,7 @@ html {
             .ch-copy--container {
               width: 60%;
               p {
-                font-family: 'Barlow-Regular', sans-serif;
+                font-family: "Barlow-Regular", sans-serif;
                 font-size: 1.5em;
                 line-height: 1.33;
                 color: var(--scale--darker);
@@ -337,9 +337,12 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
   html {
     body {
+      h1 {
+        font-size: 3em;
+      }
       #container {
         section {
           &.cards {
@@ -352,6 +355,16 @@ html {
             width: 100%;
           }
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px){
+  html {
+    body {
+      h1 {
+        font-size: 2em;
       }
     }
   }
