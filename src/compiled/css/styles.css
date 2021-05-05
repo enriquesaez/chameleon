@@ -85,6 +85,9 @@ html body #container {
 html body #container section.top-area {
   width: 75%;
 }
+html body #container section.top-area .c-button {
+  width: 10.125rem;
+}
 html body #container section.body-area {
   width: 60%;
 }
@@ -97,6 +100,9 @@ html body #container section.body-area > div p {
 html body #container section.body-area > div img {
   width: 300px;
   height: 243px;
+}
+html body #container .row .c-button {
+  width: 10.125rem;
 }
 html body #container-100 {
   width: 100%;
@@ -211,8 +217,6 @@ html body #container-100 section.cards {
   margin-bottom: 1em;
 }
 html body footer {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   padding: 0 1.5em 0 1.15em;
 }
@@ -400,7 +404,23 @@ html body #container-100 section.body-area-3 .ch-image {
 /* END ont-face */
 /* Web components */
 .c-button {
-  width: 8em;
+  width: 7.875rem;
+  height: 2.5rem;
+  border: 0px;
+  border-radius: 1.5rem;
+  background-color: var(--brand-primary);
+  cursor: pointer;
+}
+.c-button span {
+  color: var(--lighter);
+  font-size: 1rem;
+  line-height: 1rem;
+  font-family: "Barlow-Medium", sans-serif;
+  text-align: center;
+}
+.c-button:hover {
+  background-color: var(--brand-primary-hover);
+  transition-duration: 0.4s;
 }
 
 .c-card .card-square {
@@ -568,6 +588,7 @@ html body #container-100 section.body-area-3 .ch-image {
 :root {
   --primary: #112133;
   --brand-primary: #5bb99a;
+  --brand-primary-hover: #309775;
   --brand-medium: #3f7bbf;
   --brand-light: #91cdff;
   --scale--darkest: #4b4d4e;

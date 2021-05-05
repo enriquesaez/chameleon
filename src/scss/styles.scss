@@ -93,6 +93,9 @@ html {
       section {
         &.top-area {
           width: 75%;
+          .c-button {
+            width: 10.125rem;
+          } 
         }
         &.body-area {
           width: 60%;
@@ -109,6 +112,11 @@ html {
             }
           }
         }
+      }
+      .row {
+        .c-button {
+          width: 10.125rem;
+        } 
       }
     }
     #container-100 {
