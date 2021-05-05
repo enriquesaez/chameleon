@@ -221,14 +221,14 @@ html body footer {
   padding: 0 1.5em 0 1.15em;
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 1366px) {
+@media only screen and (max-width: 1400px) and (min-width: 1266px) {
   html body #container section.cards {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
   }
 }
-@media only screen and (max-width: 1365px) and (min-width: 769px) {
+@media only screen and (max-width: 1265px) and (min-width: 769px) {
   html body #container section.cards {
     width: 70%;
     display: flex;
@@ -456,7 +456,7 @@ html body #container-100 section.body-area-3 .ch-image {
   font-size: 0.9em;
 }
 
-@media only screen and (max-width: 1365px) and (min-width: 769px) {
+@media only screen and (max-width: 1265px) and (min-width: 769px) {
   .c-card .card-square {
     width: 10.55em;
     height: 16.45em;
