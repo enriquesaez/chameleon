@@ -40,7 +40,8 @@
   .c-card {
     .card-square {
       width: 10.55em;
-      height: 16.45em;
+      min-height: 16em;
+      height: auto;
       padding: 1.3em 1.1em;
     }
   }
