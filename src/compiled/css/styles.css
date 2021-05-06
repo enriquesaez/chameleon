@@ -82,11 +82,11 @@ html body #container {
   max-width: 90em;
   padding: 1.4em;
 }
+html body #container .c-button {
+  width: 10.125rem;
+}
 html body #container section.top-area {
   width: 75%;
-}
-html body #container section.top-area .c-button {
-  width: 10.125rem;
 }
 html body #container section.body-area {
   width: 60%;
@@ -100,9 +100,6 @@ html body #container section.body-area > div p {
 html body #container section.body-area > div img {
   width: 300px;
   height: 243px;
-}
-html body #container .row .c-button {
-  width: 10.125rem;
 }
 html body #container-100 {
   width: 100%;
