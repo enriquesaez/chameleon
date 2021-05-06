@@ -426,6 +426,10 @@ html body #container-100 section.body-area-3 .ch-image {
   transition-duration: 0.4s;
 }
 
+.c-card {
+  display: flex;
+  display: -webkit-flex;
+}
 .c-card .card-square {
   display: flex;
   display: -webkit-flex;
@@ -435,7 +439,8 @@ html body #container-100 section.body-area-3 .ch-image {
   -webkit-align-items: center;
   border: 1px solid #dadada;
   width: 15.75em;
-  height: 13.75em;
+  min-height: 13.75em;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0px 0px 4px 4px #ececec;
   padding: 1em 2em;
