@@ -37,44 +37,45 @@ html {
                 padding: 14px 16px;
                 text-decoration: none;
               }
-            }
-            .dropdown {
-              float: left;
-              overflow: hidden;
-
-              .dropbtn {
-                font-family: 'Barlow-Medium', sans-serif;
-                font-size: 1rem;
-                color: var(--primary);
-                border: none;
-                outline: none;
-                background-color: inherit;
-                margin: 0em 0em 0.5em 0em;
-                cursor: pointer;
+              .dropdown {
+                float: left;
+                overflow: hidden;
+  
+                .dropbtn {
+                  font-family: 'Barlow-Medium', sans-serif;
+                  font-size: 1rem;
+                  color: var(--primary);
+                  border: none;
+                  outline: none;
+                  background-color: inherit;
+                  margin: 0em 0em 0.5em 0em;
+                  cursor: pointer;
+                }
               }
-            }
-            .dropdown-content {
-              display: none;
-              position: absolute;
-              background-color: #dddddd;
-              min-width: 33px;
-              z-index: 1;
-              a {
-                float: none;
-                font-family: 'Barlow-Medium', sans-serif;
-                font-size: 1rem;
-                color: var(--primary);
-                padding: 0.5em;
-                text-decoration: none;
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #dddddd;
+                min-width: 33px;
+                z-index: 1;
+                a {
+                  float: none;
+                  font-family: 'Barlow-Medium', sans-serif;
+                  font-size: 1rem;
+                  color: var(--primary);
+                  padding: 0.5em;
+                  text-decoration: none;
+                  display: block;
+                  text-align: left;
+                  cursor: pointer;
+                }
+              }
+              .show {
                 display: block;
-                text-align: left;
-                cursor: pointer;
               }
             }
-            .show {
-              display: block;
             }
-          }
+
           .box-login {
             margin-right: 1em;
             margin-bottom: 0.5em;
