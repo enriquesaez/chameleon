@@ -40,16 +40,39 @@ html {
               .dropdown {
                 float: left;
                 overflow: hidden;
-  
                 .dropbtn {
-                  font-family: 'Barlow-Medium', sans-serif;
-                  font-size: 1rem;
-                  color: var(--primary);
                   border: none;
                   outline: none;
                   background-color: inherit;
                   margin: 0em 0em 0.5em 0em;
+                  font-family: "Barlow-Medium", sans-serif;
+                  font-size: 1rem;
+                  color: var(--primary);
                   cursor: pointer;
+                  .arrow {
+                    border: solid var(--primary);
+                    border-width: 0 0.094rem 0.094rem 0;
+                    display: inline-block;
+                    padding: 4px;
+                    margin-left: 0.5rem;
+                    margin-bottom: 0.2rem;
+                    &.right {
+                      transform: rotate(-45deg);
+                      -webkit-transform: rotate(-45deg);
+                    }
+                    &.left {
+                      transform: rotate(135deg);
+                      -webkit-transform: rotate(135deg);
+                    }
+                    &.up {
+                      transform: rotate(-135deg);
+                      -webkit-transform: rotate(-135deg);
+                    }
+                    &.down {
+                      transform: rotate(45deg);
+                      -webkit-transform: rotate(45deg);
+                    }
+                  }
                 }
               }
               .dropdown-content {
@@ -60,7 +83,7 @@ html {
                 z-index: 1;
                 a {
                   float: none;
-                  font-family: 'Barlow-Medium', sans-serif;
+                  font-family: "Barlow-Medium", sans-serif;
                   font-size: 1rem;
                   color: var(--primary);
                   padding: 0.5em;
@@ -74,14 +97,14 @@ html {
                 display: block;
               }
             }
-            }
+          }
 
           .box-login {
             margin-right: 1em;
             margin-bottom: 0.5em;
             span {
               a {
-                font-family: 'Barlow-Medium', sans-serif;
+                font-family: "Barlow-Medium", sans-serif;
                 font-size: 1rem;
                 text-decoration: none;
                 color: var(--primary);
@@ -100,7 +123,7 @@ html {
       padding: 1.4em;
       .c-button {
         width: 10.125rem;
-      } 
+      }
       section {
         &.top-area {
           width: 75%;
@@ -244,7 +267,7 @@ html {
       #container {
         section {
           &.cards {
-            width: 80%;
+            width: 88%;
             display: flex;
             justify-content: space-evenly;
           }
@@ -348,7 +371,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   html {
     body {
       h1 {
@@ -371,7 +394,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 520px){
+@media only screen and (max-width: 520px) {
   html {
     body {
       h1 {
