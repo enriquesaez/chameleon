@@ -42,14 +42,14 @@ html body header .ch-right .lang-login .box-lang .dropdown {
   overflow: hidden;
 }
 html body header .ch-right .lang-login .box-lang .dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;
+  font-family: "Barlow-Medium", sans-serif;
+  font-size: 1rem;
+  color: var(--primary);
   border: none;
   outline: none;
-  color: black;
   background-color: inherit;
-  font-family: inherit;
   margin: 0em 0em 0.5em 0em;
+  cursor: pointer;
 }
 html body header .ch-right .lang-login .box-lang .dropdown-content {
   display: none;
@@ -60,7 +60,9 @@ html body header .ch-right .lang-login .box-lang .dropdown-content {
 }
 html body header .ch-right .lang-login .box-lang .dropdown-content a {
   float: none;
-  color: black;
+  font-family: "Barlow-Medium", sans-serif;
+  font-size: 1rem;
+  color: var(--primary);
   padding: 0.5em;
   text-decoration: none;
   display: block;
@@ -357,31 +359,6 @@ html body #container-100 section.body-area-3 .ch-image {
   }
 }
 /* Font-face */
-@font-face {
-  font-family: "FiraSans-Light";
-  src: url("../fonts/FiraSans-Light.ttf") format("woff2"), url("../fonts/FiraSans-Light.ttf") format("woff");
-}
-@font-face {
-  font-family: "FiraSans-Regular";
-  src: url("../fonts/FiraSans-Regular.ttf") format("woff2"), url("../fonts/FiraSans-Regular.ttf") format("woff");
-}
-@font-face {
-  font-family: "FiraSans-Medium";
-  src: url("../fonts/FiraSans-Medium.ttf") format("woff2"), url("../fonts/FiraSans-Medium.ttf") format("woff");
-}
-@font-face {
-  font-family: "FiraSans-SemiBold";
-  src: url("../fonts/FiraSans-SemiBold.ttf") format("woff2"), url("../fonts/FiraSans-SemiBold.ttf") format("woff");
-}
-@font-face {
-  font-family: "FiraSans-Bold";
-  src: url("../fonts/FiraSans-Bold.ttf") format("woff2"), url("../fonts/FiraSans-Bold.ttf") format("woff");
-}
-@font-face {
-  font-family: "FiraSans-ExtraBold";
-  src: url("../fonts/FiraSans-ExtraBold.ttf") format("woff2"), url("../fonts/FiraSans-ExtraBold.ttf") format("woff");
-}
-/* Chameleon Vision fonts */
 @font-face {
   font-family: "Barlow-Regular";
   src: url("../fonts/Barlow-Regular.ttf") format("woff2"), url("../fonts/Barlow-Regular.ttf") format("woff");

@@ -43,14 +43,14 @@ html {
               overflow: hidden;
 
               .dropbtn {
-                cursor: pointer;
-                font-size: 16px;
+                font-family: 'Barlow-Medium', sans-serif;
+                font-size: 1rem;
+                color: var(--primary);
                 border: none;
                 outline: none;
-                color: black;
                 background-color: inherit;
-                font-family: inherit;
                 margin: 0em 0em 0.5em 0em;
+                cursor: pointer;
               }
             }
             .dropdown-content {
@@ -61,7 +61,9 @@ html {
               z-index: 1;
               a {
                 float: none;
-                color: black;
+                font-family: 'Barlow-Medium', sans-serif;
+                font-size: 1rem;
+                color: var(--primary);
                 padding: 0.5em;
                 text-decoration: none;
                 display: block;
