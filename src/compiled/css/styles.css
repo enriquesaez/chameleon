@@ -456,12 +456,16 @@ html body #container-100 section.body-area-3 .ch-image {
   text-align: center;
 }
 .c-card .card-square .card-text .card-title {
-  font-family: "FiraSans-Medium", sans-serif;
-  font-size: 1.6em;
-  margin-bottom: 0.6em;
+  font-family: "Barlow-Medium", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: var(--darker);
 }
 .c-card .card-square .card-text .card-description {
-  font-size: 0.9em;
+  font-family: "Barlow-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 1.33;
+  color: var(--scale--darker);
 }
 
 @media only screen and (max-width: 1265px) and (min-width: 769px) {
@@ -483,6 +487,7 @@ html body #container-100 section.body-area-3 .ch-image {
   .c-card .card-square {
     width: 100%;
     height: auto;
+    min-height: unset;
     flex-direction: unset;
     padding: 1em 1.2em;
   }
@@ -492,6 +497,12 @@ html body #container-100 section.body-area-3 .ch-image {
   }
   .c-card .card-square .card-text {
     text-align: left;
+  }
+  .c-card .card-square .card-text .card-title {
+    font-size: 1.2rem;
+  }
+  .c-card .card-square .card-text .card-description {
+    font-size: 1.2rem;
   }
 }
 #cookiesBox {
@@ -608,6 +619,7 @@ html body #container-100 section.body-area-3 .ch-image {
   --scale--lightest: #dbdcdc;
   --darker: #000000;
   --lighter: #ffffff;
+  --subtitle: #0c1110;
   --states-sucess: #77e6a7;
   --states-warning: #ffc752;
   --states-danger: #ff6867;

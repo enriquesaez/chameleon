@@ -29,12 +29,16 @@
     .card-text {
       text-align: center;
       .card-title {
-        font-family: "FiraSans-Medium", sans-serif;
-        font-size: 1.6em;
-        margin-bottom: 0.6em;
+        font-family: "Barlow-Medium", sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.33;
+        color: var(--darker);
       }
       .card-description {
-        font-size: 0.9em;
+        font-family: "Barlow-Regular", sans-serif;
+        font-size: 1rem;
+        line-height: 1.33;
+        color: var(--scale--darker);
       }
     }
   }
@@ -62,6 +66,7 @@
     .card-square {
       width: 100%;
       height: auto;
+      min-height: unset;
       flex-direction: unset;
       -ms-flex-direction: unset;
       -webkit-flex-direction: unset;
@@ -72,8 +77,13 @@
       }
       .card-text {
         text-align: left;
+        .card-title {
+          font-size: 1.2rem;
+        }
+        .card-description {
+          font-size: 1.2rem;
+        }
       }
     }
   }
 }
-
