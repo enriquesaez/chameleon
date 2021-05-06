@@ -6,12 +6,14 @@ html {
       font-size: 4em;
       font-family: "Barlow-Bold", sans-serif;
       line-height: 1.13;
+      color: var(--darker);
     }
     h2 {
       font-family: "Barlow-Medium", sans-serif;
       font-size: 2em;
       margin-bottom: 0.6em;
       line-height: 1.25;
+      color: var(--subtitle)
     }
     h3 {
       font-family: "Barlow-MediumItalic", sans-serif;
