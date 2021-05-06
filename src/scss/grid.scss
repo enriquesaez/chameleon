@@ -63,10 +63,4 @@
     .col-12 {
         width: $width;
     }
-
-    @for $i from 1 through $numRows {
-        .col-#{$i}-lg {
-            width: (100 / $numRows) * $i#{'%'};
-        }
-    }
 }
