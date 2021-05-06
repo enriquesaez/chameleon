@@ -77,8 +77,13 @@ html body header .ch-right .lang-login .box-login {
   margin-bottom: 0.5em;
 }
 html body header .ch-right .lang-login .box-login span a {
-  color: black;
+  font-family: "Barlow-Medium", sans-serif;
+  font-size: 1rem;
   text-decoration: none;
+  color: var(--primary);
+}
+html body header .ch-right .ch-try {
+  margin-bottom: 0.5em;
 }
 html body #container {
   max-width: 90em;
