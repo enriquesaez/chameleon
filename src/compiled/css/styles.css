@@ -247,6 +247,8 @@ html body #container-100 section.cards {
   margin-bottom: 1em;
 }
 html body footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 0 1.5em 0 1.15em;
 }
@@ -408,6 +410,7 @@ html body #container-100 section.body-area-3 .ch-image {
 }
 /* END ont-face */
 /* Web components */
+/* c-button component */
 .c-button {
   width: 7.875rem;
   height: 2.5rem;
@@ -428,6 +431,8 @@ html body #container-100 section.body-area-3 .ch-image {
   transition-duration: 0.4s;
 }
 
+/* END c-button component */
+/* c-card component */
 .c-card {
   display: flex;
   display: -webkit-flex;
@@ -507,6 +512,8 @@ html body #container-100 section.body-area-3 .ch-image {
     font-size: 1rem;
   }
 }
+/* END c-card component */
+/* c-cookiesBox component */
 #cookiesBox {
   box-shadow: 0px 0px 4px 0px #b2b2b2;
   box-sizing: border-box;
@@ -605,6 +612,7 @@ html body #container-100 section.body-area-3 .ch-image {
     padding: 1.4em 1.4em 2em 2.4em;
   }
 }
+/* END c-cookiesBox component */
 /* END Web components */
 /* Color variables */
 :root {
@@ -636,6 +644,7 @@ html body #container-100 section.body-area-3 .ch-image {
   --interactive-primary-state-active: #1a674c;
 }
 
+/* END Color variables */
 /* Reset Browsers styles */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
