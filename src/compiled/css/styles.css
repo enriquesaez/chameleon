@@ -844,9 +844,9 @@ html body #container-100 section.body-area-3 .ch-image {
 .c-menu-mobile .cmb-container input ~ nav > ul {
   text-align: center;
   position: absolute;
-  top: 10%;
-  left: 20%;
-  right: 20%;
+  top: 11%;
+  left: 5%;
+  right: 5%;
 }
 .c-menu-mobile .cmb-container input ~ nav > ul > li {
   opacity: 0;
@@ -859,7 +859,11 @@ html body #container-100 section.body-area-3 .ch-image {
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
   display: block;
-  padding: 30px;
+  padding: 30px 12px;
+}
+.c-menu-mobile .cmb-container input ~ nav > ul > li .c-button {
+  width: 100%;
+  margin-top: 1.5rem;
 }
 
 /* END Web components */
