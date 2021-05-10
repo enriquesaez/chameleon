@@ -68,13 +68,21 @@ html(lang='en')
       
     footer.flex.flex-justify-between.flex-align-center
       .ch-logo
-        img(src="img/logo.png" alt="Chameleon vision")
+        img(src="img/logo-footer.png" alt="Chameleon vision")
       .ch-right.flex
         .lang-login.flex.flex-align-center
-          span ES
-          span Login
+          .box-lang 
+            .navbar
+              .dropdown
+                button.dropbtn(onclick='desp()')
+                  | ES
+                  i.arrow.down
+                #myDropdown
+          span
+            a(href="#") Blog
         .ch.try
-          span Términos y condiciones
+          span
+            a(href="#") Términos y condiciones
 
 include js/c-cookies-js.pug
 include js/c-dropdown-js.pug
