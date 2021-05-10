@@ -26,7 +26,7 @@ html {
       height: 4.75em;
       padding: 0 1.5em 0 1.15em;
       margin-bottom: 2em;
-      .mobile-menu {
+      .c-menu-mobile {
         display: none;
       }
       .ch-right {
@@ -623,17 +623,8 @@ html {
         .ch-logo, .ch-right {
           display: none;
         }
-        .mobile-menu {
-          display: flex;
-          display: -ms-flexbox;
-          display: -webkit-flex;
-          justify-content: center;
-          -ms-flex-pack: center;
-          -webkit-justify-content: center;
-          width: 100%;
-          .mobile-ch-logo {
-
-          }
+        .c-menu-mobile {
+          display: block;
         }
       }
       footer {
