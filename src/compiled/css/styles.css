@@ -524,8 +524,8 @@ html body #container-100 section.body-area-3 .ch-image {
   position: fixed;
   bottom: 1.5em;
   left: 1.5em;
-  width: 38.5em;
-  height: 20.5em;
+  width: 26.5px;
+  height: 14px;
   padding: 1.4em 1.4em 1.4em 2.4em;
   display: flex;
   justify-content: space-between;
@@ -560,13 +560,13 @@ html body #container-100 section.body-area-3 .ch-image {
   height: auto;
 }
 #cookiesBox .coockies-body p {
-  font-family: "FiraSans-Regular", sans-serif;
-  font-size: 1.4em;
+  font-family: "Barlow-Regular", sans-serif;
+  font-size: 1rem;
   line-height: 1.5em;
-  color: #424242;
+  color: var(--subtitle);
 }
 #cookiesBox .coockies-body p a {
-  color: #424242;
+  color: var(--subtitle);
 }
 
 @media only screen and (max-width: 590px) {
