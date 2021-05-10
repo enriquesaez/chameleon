@@ -71,18 +71,20 @@ html(lang='en')
         img(src="img/logo-footer.png" alt="Chameleon vision")
       .ch-right.flex
         .lang-login.flex.flex-align-center
-          .box-lang 
+          .box-lang-footer
             .navbar
               .dropdown
-                button.dropbtn(onclick='desp()')
+                button.dropbtn(onclick='despfooter()')
                   | ES
                   i.arrow.down
-                #myDropdown
-          span
-            a(href="#") Blog
-        .ch.try
-          span
-            a(href="#") Términos y condiciones
+                #myDropdownFooter.dropdown-content
+                  a EN
+          .box-blog 
+            span
+              a(href="#") Blog
+        .ch-try.flex.flex-align-center
+            span
+              a(href="#") Términos y condiciones
 
 include js/c-cookies-js.pug
 include js/c-dropdown-js.pug

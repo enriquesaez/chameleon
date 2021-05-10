@@ -10,3 +10,16 @@ script.
             }
         }
     }
+
+script.
+    function despfooter() {
+        document.getElementById("myDropdownFooter").classList.toggle("show");
+    }
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdownFooter");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
