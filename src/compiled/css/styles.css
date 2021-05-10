@@ -306,9 +306,15 @@ html body footer {
     flex-direction: column;
     width: 70%;
   }
+  html body #container .c-button {
+    width: 14.75rem;
+  }
 }
 @media only screen and (max-width: 559px) {
   html body #container section.cards {
+    width: 100%;
+  }
+  html body #container .c-button {
     width: 100%;
   }
 }

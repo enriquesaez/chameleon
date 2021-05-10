@@ -391,6 +391,9 @@ html {
             width: 70%;
           }
         }
+        .c-button {
+          width: 14.75rem;
+        }
       }
     }
   }
@@ -404,6 +407,9 @@ html {
           &.cards {
             width: 100%;
           }
+        }
+        .c-button {
+          width: 100%;
         }
       }
     }
@@ -457,7 +463,6 @@ html {
             flex-direction: column;
             -ms-flex-direction: column;
             -webkit-flex-direction: column;
-            //width: 100%;
           }
         }
       }
