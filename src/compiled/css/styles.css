@@ -34,7 +34,6 @@ html body header .ch-right .lang-login .box-lang .navbar {
 }
 html body header .ch-right .lang-login .box-lang .navbar a {
   float: left;
-  color: var(--lighter);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -50,11 +49,11 @@ html body header .ch-right .lang-login .box-lang .navbar .dropdown .dropbtn {
   margin: 0em 0em 0.5em 0em;
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
-  color: var(--primary);
+  color: var(--darker);
   cursor: pointer;
 }
 html body header .ch-right .lang-login .box-lang .navbar .dropdown .dropbtn .arrow {
-  border: solid var(--primary);
+  border: solid var(--darker);
   border-width: 0 0.094rem 0.094rem 0;
   display: inline-block;
   padding: 4px;
@@ -88,7 +87,7 @@ html body header .ch-right .lang-login .box-lang .navbar .dropdown-content a {
   float: none;
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
-  color: var(--primary);
+  color: var(--darker);
   padding: 0.5em;
   text-decoration: none;
   display: block;
@@ -260,7 +259,6 @@ html body footer .ch-right .box-lang-footer .navbar {
 }
 html body footer .ch-right .box-lang-footer .navbar a {
   float: left;
-  color: var(--lighter);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -276,11 +274,11 @@ html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn {
   margin: 0em;
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
-  color: var(--primary);
+  color: var(--darker);
   cursor: pointer;
 }
 html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow {
-  border: solid var(--primary);
+  border: solid var(--darker);
   border-width: 0 0.094rem 0.094rem 0;
   display: inline-block;
   padding: 4px;
@@ -314,7 +312,7 @@ html body footer .ch-right .box-lang-footer .navbar .dropdown-content a {
   float: none;
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
-  color: var(--primary);
+  color: var(--darker);
   padding: 0.5em;
   text-decoration: none;
   display: block;
@@ -331,13 +329,13 @@ html body footer .ch-right .box-blog span a {
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
   text-decoration: none;
-  color: var(--primary);
+  color: var(--darker);
 }
 html body footer .ch-right .ch-try span a {
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
   text-decoration: none;
-  color: var(--primary);
+  color: var(--darker);
 }
 
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {

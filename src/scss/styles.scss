@@ -34,7 +34,6 @@ html {
               overflow: hidden;
               a {
                 float: left;
-                color: var(--lighter);
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
@@ -49,10 +48,10 @@ html {
                   margin: 0em 0em 0.5em 0em;
                   font-family: "Barlow-Medium", sans-serif;
                   font-size: 1rem;
-                  color: var(--primary);
+                  color: var(--darker);
                   cursor: pointer;
                   .arrow {
-                    border: solid var(--primary);
+                    border: solid var(--darker);
                     border-width: 0 0.094rem 0.094rem 0;
                     display: inline-block;
                     padding: 4px;
@@ -87,7 +86,7 @@ html {
                   float: none;
                   font-family: "Barlow-Medium", sans-serif;
                   font-size: 1rem;
-                  color: var(--primary);
+                  color: var(--darker);
                   padding: 0.5em;
                   text-decoration: none;
                   display: block;
@@ -268,7 +267,6 @@ html {
             overflow: hidden;
             a {
               float: left;
-              color: var(--lighter);
               text-align: center;
               padding: 14px 16px;
               text-decoration: none;
@@ -283,10 +281,10 @@ html {
                 margin: 0em;
                 font-family: "Barlow-Medium", sans-serif;
                 font-size: 1rem;
-                color: var(--primary);
+                color: var(--darker);
                 cursor: pointer;
                 .arrow {
-                  border: solid var(--primary);
+                  border: solid var(--darker);
                   border-width: 0 0.094rem 0.094rem 0;
                   display: inline-block;
                   padding: 4px;
@@ -321,7 +319,7 @@ html {
                 float: none;
                 font-family: "Barlow-Medium", sans-serif;
                 font-size: 1rem;
-                color: var(--primary);
+                color: var(--darker);
                 padding: 0.5em;
                 text-decoration: none;
                 display: block;
@@ -341,7 +339,7 @@ html {
               font-family: "Barlow-Medium", sans-serif;
               font-size: 1rem;
               text-decoration: none;
-              color: var(--primary);
+              color: var(--darker);
             }
           }
         }        
@@ -351,7 +349,7 @@ html {
               font-family: "Barlow-Medium", sans-serif;
               font-size: 1rem;
               text-decoration: none;
-              color: var(--primary);
+              color: var(--darker);
             }
           }
         }
