@@ -569,22 +569,23 @@ html body #container-100 section.body-area-3 .ch-image {
 
 @media only screen and (max-width: 590px) {
   #cookiesBox {
-    border: 0em;
+    border: 0rem;
     box-shadow: unset;
     width: 100%;
-    height: 22em;
+    height: 17rem;
     bottom: 0em;
-    left: 0em;
-    padding: 0em;
+    left: 0rem;
+    padding: 0rem;
   }
   #cookiesBox .cookies-header {
     height: 2em;
-    border-bottom: 1px solid #afafaf;
-    padding: 2.4em 1em 1.2em;
+    border-bottom: 1px solid var(--scale--lighter);
+    padding: 2.4rem 1rem 1.2rem;
   }
   #cookiesBox .cookies-header button {
-    font-size: 3.2em;
+    font-size: 3.2rem;
     font-weight: 700;
+    height: 1.8rem;
   }
   #cookiesBox .coockies-body {
     padding: 1.4em 1.4em 3em 2.4em;
@@ -598,7 +599,7 @@ html body #container-100 section.body-area-3 .ch-image {
     border: 0em;
     box-shadow: unset;
     width: 100%;
-    height: 30em;
+    height: 17rem;
     bottom: 0em;
     left: 0em;
     padding: 0em;
