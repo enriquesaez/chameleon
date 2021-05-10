@@ -365,7 +365,7 @@ html {
       #container {
         section {
           &.cards {
-            width: 90%;
+            width: 80%;
           }
         }
       }
@@ -373,7 +373,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 560px) {
   html {
     body {
       h1 {
@@ -388,6 +388,20 @@ html {
             flex-direction: column;
             -ms-flex-direction: column;
             -webkit-flex-direction: column;
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 559px){
+  html {
+    body {
+      #container {
+        section {
+          &.cards {
             width: 100%;
           }
         }
@@ -443,7 +457,7 @@ html {
             flex-direction: column;
             -ms-flex-direction: column;
             -webkit-flex-direction: column;
-            width: 100%;
+            //width: 100%;
           }
         }
       }

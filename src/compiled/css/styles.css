@@ -292,10 +292,10 @@ html body footer {
 }
 @media only screen and (max-width: 1023px) and (min-width: 769px) {
   html body #container section.cards {
-    width: 90%;
+    width: 80%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 560px) {
   html body h1 {
     font-size: 3em;
   }
@@ -304,6 +304,11 @@ html body footer {
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     flex-direction: column;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 559px) {
+  html body #container section.cards {
     width: 100%;
   }
 }
@@ -345,7 +350,6 @@ html body footer {
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     flex-direction: column;
-    width: 100%;
   }
   html body #container-100 section {
     display: flex;
