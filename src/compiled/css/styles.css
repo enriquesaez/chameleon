@@ -523,7 +523,7 @@ html body #container-100 section.body-area-3 .ch-image {
   bottom: 1.5em;
   left: 1.5em;
   width: 26.5rem;
-  height: 14rem;
+  height: 14.2rem;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -533,15 +533,15 @@ html body #container-100 section.body-area-3 .ch-image {
 }
 #cookiesBox .cookies-header {
   box-sizing: border-box;
-  height: 2em;
+  height: 2rem;
 }
 #cookiesBox .cookies-header button {
   background-color: unset;
   border-width: 0;
-  height: 0.7em;
+  height: 0.8rem;
   cursor: pointer;
   color: var(--darker);
-  font-size: 2.6em;
+  font-size: 2rem;
   line-height: 0em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 200;
@@ -551,7 +551,7 @@ html body #container-100 section.body-area-3 .ch-image {
   padding-top: 0.9em;
 }
 #cookiesBox .coockies-body .col-img-cookie {
-  margin-right: 1.5em;
+  margin-right: 1.2rem;
 }
 #cookiesBox .coockies-body .col-img-cookie img {
   width: 66px;
