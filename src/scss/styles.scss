@@ -26,6 +26,9 @@ html {
       height: 4.75em;
       padding: 0 1.5em 0 1.15em;
       margin-bottom: 2em;
+      .mobile-menu {
+        display: none;
+      }
       .ch-right {
         .lang-login {
           .box-lang {
@@ -507,6 +510,9 @@ html {
 @media only screen and (max-width: 559px) {
   html {
     body {
+      h1 {
+        font-size: 2em;
+      }
       #container {
         section {
           &.cards {
@@ -521,24 +527,9 @@ html {
   }
 }
 
-@media only screen and (max-width: 520px) {
-  html {
-    body {
-      h1 {
-        font-size: 2em;
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: 767px) {
   html {
     body {
-      header {
-        .ch-right {
-          display: none;
-        }
-      }
       #container {
         width: 100%;
         padding: 0.9em;
@@ -628,6 +619,23 @@ html {
 @media only screen and (max-width: 559px) {
   html {
     body {
+      header {
+        .ch-logo, .ch-right {
+          display: none;
+        }
+        .mobile-menu {
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          justify-content: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          width: 100%;
+          .mobile-ch-logo {
+
+          }
+        }
+      }
       footer {
         padding-top: 1.4rem;
         height: 15rem;

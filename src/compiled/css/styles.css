@@ -26,6 +26,9 @@ html body header {
   padding: 0 1.5em 0 1.15em;
   margin-bottom: 2em;
 }
+html body header .mobile-menu {
+  display: none;
+}
 html body header .ch-right .lang-login .box-lang {
   margin-right: 1em;
 }
@@ -407,6 +410,9 @@ html body footer .ch-right .ch-try span a {
   }
 }
 @media only screen and (max-width: 559px) {
+  html body h1 {
+    font-size: 2em;
+  }
   html body #container section.cards {
     width: 100%;
   }
@@ -414,15 +420,7 @@ html body footer .ch-right .ch-try span a {
     width: 100%;
   }
 }
-@media only screen and (max-width: 520px) {
-  html body h1 {
-    font-size: 2em;
-  }
-}
 @media only screen and (max-width: 767px) {
-  html body header .ch-right {
-    display: none;
-  }
   html body #container {
     width: 100%;
     padding: 0.9em;
@@ -496,6 +494,17 @@ html body #container-100 section.body-area-3 .ch-image {
   }
 }
 @media only screen and (max-width: 559px) {
+  html body header .ch-logo, html body header .ch-right {
+    display: none;
+  }
+  html body header .mobile-menu {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    width: 100%;
+  }
   html body footer {
     padding-top: 1.4rem;
     height: 15rem;
