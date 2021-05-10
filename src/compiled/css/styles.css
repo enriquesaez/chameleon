@@ -246,6 +246,14 @@ html body #container-100 section.cards {
   margin-bottom: 1em;
 }
 html body footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
   padding: 0 1.5em 0 1.15em;
   border-top: 1px solid var(--border-top);
   height: 4.5rem;
@@ -338,6 +346,7 @@ html body footer .ch-right .ch-try span a {
   color: var(--darker);
 }
 
+/* Responsive Tablet & mobile */
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {
   html body #container section.cards {
     width: 88%;
@@ -484,6 +493,33 @@ html body #container-100 section.body-area-3 .ch-image {
     width: 88%;
     position: relative;
     left: 40px;
+  }
+}
+@media only screen and (max-width: 559px) {
+  html body footer {
+    padding-top: 1.4rem;
+    height: 15rem;
+    justify-content: unset;
+    -ms-flex-pack: unset;
+    -webkit-justify-content: unset;
+    flex-direction: column;
+  }
+  html body footer .ch-right {
+    flex-direction: column;
+  }
+  html body footer .ch-right .lang-login {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  html body footer .ch-right .lang-login .box-lang-footer {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  html body footer .ch-right .box-blog {
+    margin-right: 0em;
+  }
+  html body footer .ch-logo {
+    margin-bottom: 2rem;
   }
 }
 /* Font-face */
