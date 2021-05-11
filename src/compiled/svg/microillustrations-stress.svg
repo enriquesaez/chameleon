@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <path id="98w06hy5fa" d="M0.576 0.526L11.08 0.526 11.08 16.282 0.576 16.282z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <path fill="#91CDFF" d="M63.617 36c0 15.253-12.364 27.616-27.617 27.616S8.384 51.253 8.384 36 20.747 8.383 36 8.383 63.617 20.747 63.617 36" opacity=".32" transform="translate(-791 -1863) translate(0 1687) translate(100 160) translate(630) translate(61 16)"/>
+                                <path stroke="#112133" d="M71.507 36c0 19.61-15.897 35.506-35.507 35.506S.494 55.61.494 36 16.39.493 36 .493 71.507 16.39 71.507 36z" transform="translate(-791 -1863) translate(0 1687) translate(100 160) translate(630) translate(61 16)"/>
+                            </g>
+                            <g>
+                                <g transform="translate(-791 -1863) translate(0 1687) translate(100 160) translate(630) translate(61 16) translate(18 20) translate(12.45 .252)">
+                                    <mask id="mgsorqnweb" fill="#fff">
+                                        <use xlink:href="#98w06hy5fa"/>
+                                    </mask>
+                                    <path fill="#5BB99A" d="M5.84.525h-.023C1.842 3.342.547 6.051.577 8.404c-.03 2.352 1.265 5.06 5.24 7.878h.023c3.975-2.817 5.27-5.526 5.24-7.878.03-2.353-1.265-5.062-5.24-7.879" mask="url(#mgsorqnweb)"/>
+                                </g>
+                                <path fill="#5BB99A" d="M9.119 12.377c-2.229-.756-5.204-.361-9.112 2.549L0 14.947c1.451 4.651 3.626 6.72 5.873 7.418 2.228.757 5.204.361 9.111-2.548l.007-.023c-1.45-4.65-3.625-6.719-5.872-7.417M36.534 14.947c-3.907-2.91-6.884-3.304-9.112-2.549-2.246.699-4.422 2.767-5.872 7.419l.007.02c3.906 2.91 6.883 3.305 9.111 2.55 2.247-.699 4.423-2.767 5.873-7.419l-.007-.02z" transform="translate(-791 -1863) translate(0 1687) translate(100 160) translate(630) translate(61 16) translate(18 20)"/>
+                                <path stroke="#112133" d="M18.271 8.033L18.271 31.376M7.591 17.759L18.278 20.66M29.172 17.759L18.485 20.66" transform="translate(-791 -1863) translate(0 1687) translate(100 160) translate(630) translate(61 16) translate(18 20)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

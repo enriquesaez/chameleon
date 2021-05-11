@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <path fill="#91CDFF" d="M55.726 28.11c0 15.252-12.364 27.616-27.616 27.616C12.857 55.726.494 43.362.494 28.11.494 12.857 12.857.493 28.11.493c15.252 0 27.616 12.364 27.616 27.617" opacity=".32" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16) translate(7.89 7.89)"/>
+                                <path fill="#FF6867" d="M1.987 51.425L54.232 4.794" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16) translate(7.89 7.89)"/>
+                            </g>
+                            <path stroke="#112133" d="M71.507 36c0 19.61-15.897 35.507-35.507 35.507S.494 55.61.494 36 16.39.493 36 .493 71.507 16.39 71.507 36z" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16)"/>
+                            <path stroke="#112133" d="M9.51 59.644l10.833-9.669m25.57-22.823L62.49 12.357" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16) matrix(-1 0 0 1 72 0)"/>
+                            <path fill="#FFF" d="M18.247 49.808h35.507-35.507z" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16)"/>
+                            <g>
+                                <path fill="#5BB99A" d="M13.115 0L0 23.314 26.229 23.314z" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16) translate(23 22)"/>
+                                <path fill="#FFF" d="M14.051 20.035c0 .518-.42.937-.936.937-.518 0-.937-.42-.937-.937 0-.517.419-.936.937-.936.517 0 .936.419.936.936M14.051 7.39c0-.518-.42-.937-.936-.937-.518 0-.937.419-.937.936v9.836c0 .518.419.936.937.936.517 0 .936-.418.936-.936" transform="translate(-581 -1863) translate(0 1687) translate(100 160) translate(420) translate(61 16) translate(23 22)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
