@@ -436,7 +436,7 @@ html {
             > div {
               &:last-child {
                 margin-left: 2em;
-                width: 25em;
+                width: 23em;
               }
             }
           }
@@ -480,7 +480,46 @@ html {
     }
   }
 }
-
+@media only screen and (max-width: 768px) {
+  html {
+    body {
+      h2 {
+        font-size: 1.5em;
+      }
+      #container {
+        section {
+          &.body-area {
+            > div {
+              p {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+      #container-100 {
+        section {
+          &.body-area-2 {
+            > div {
+              p {
+                font-size: 1rem;
+              }
+            }
+          }
+          &.body-area-3 {
+            .ch-copy {
+              .ch-copy--container {
+                p {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width: 768px) and (min-width: 560px) {
   html {
     body {
@@ -620,7 +659,8 @@ html {
   html {
     body {
       header {
-        .ch-logo, .ch-right {
+        .ch-logo,
+        .ch-right {
           display: none;
         }
         .c-menu-mobile {

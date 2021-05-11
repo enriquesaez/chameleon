@@ -378,7 +378,7 @@ html body footer .ch-right .ch-try span a {
   }
   html body #container-100 section.body-area-2 > div:last-child {
     margin-left: 2em;
-    width: 25em;
+    width: 23em;
   }
   html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
     width: 75%;
@@ -392,6 +392,20 @@ html body footer .ch-right .ch-try span a {
 @media only screen and (max-width: 1023px) and (min-width: 769px) {
   html body #container section.cards {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body h2 {
+    font-size: 1.5em;
+  }
+  html body #container section.body-area > div p {
+    font-size: 1rem;
+  }
+  html body #container-100 section.body-area-2 > div p {
+    font-size: 1rem;
+  }
+  html body #container-100 section.body-area-3 .ch-copy .ch-copy--container p {
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 560px) {
@@ -494,7 +508,8 @@ html body #container-100 section.body-area-3 .ch-image {
   }
 }
 @media only screen and (max-width: 559px) {
-  html body header .ch-logo, html body header .ch-right {
+  html body header .ch-logo,
+html body header .ch-right {
     display: none;
   }
   html body header .c-menu-mobile {
