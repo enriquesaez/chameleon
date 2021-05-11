@@ -876,6 +876,9 @@ html body header .ch-right {
   display: block;
   padding: 30px 12px;
 }
+.c-menu-mobile .cmb-container input ~ nav > ul > li > a.active {
+  color: var(--brand-primary);
+}
 .c-menu-mobile .cmb-container input ~ nav > ul > li .c-button {
   width: 100%;
   margin-top: 1.5rem;
