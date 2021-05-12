@@ -1,5 +1,20 @@
 /* Component vertical-tabs */
 .c-vertical-tabs {
+  * {
+    box-sizing: border-box;
+  }
+  h2 {
+    font-family: 'Barlow-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  p {
+    font-family: 'Barlow-Regular', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--subtitle);
+  }
   .tab {
     float: left;
     border: 1px solid #ccc;
