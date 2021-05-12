@@ -22,13 +22,15 @@ html(lang='en')
         .ch-try
           include components/c-button/c-button.pug
       include components/c-menu-mobile/c-menu-mobile.pug
-    .terms-header.flex.flex-align-center
-      h1 Términos y condiciones
+
+    .terms-header.flex.flex-align-center.flex-justify-center
+      .wrapper
+        h1 Términos y condiciones
     #container
       section.terms
         .row
           .col
-            .terms-contents 
+            .terms-contents.flex.flex-justify-center
               include components/c-vertical-tabs/c-vertical-tabs.pug
     
     footer

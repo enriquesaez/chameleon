@@ -378,24 +378,27 @@ html {
       top: -2rem;
       box-sizing: border-box;
       width: 100%;
-      margin: 0 auto;
       height: 13.563rem;
       padding: 0rem 6.25rem;
       border-bottom: 1px solid var(--border-top);
-      h1 {
-        font-size: 3rem;
-        line-height: 3.5rem;
+      .wrapper {
+        margin: 0 auto;
+        width: 90rem;
+
+        h1 {
+          font-size: 3rem;
+          line-height: 3.5rem;
+        }
       }
     }
     #container {
       .terms {
-        width: inherit;
         margin-bottom: 0em;
         .row {
           .col {
             .terms-contents {
               box-sizing: border-box;
-              padding: 0rem 6.25rem;
+              //padding: 0rem 6.25rem;
             }
           }
         }

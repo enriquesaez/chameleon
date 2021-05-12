@@ -355,22 +355,23 @@ html body .terms-header {
   top: -2rem;
   box-sizing: border-box;
   width: 100%;
-  margin: 0 auto;
   height: 13.563rem;
   padding: 0rem 6.25rem;
   border-bottom: 1px solid var(--border-top);
 }
-html body .terms-header h1 {
+html body .terms-header .wrapper {
+  margin: 0 auto;
+  width: 90rem;
+}
+html body .terms-header .wrapper h1 {
   font-size: 3rem;
   line-height: 3.5rem;
 }
 html body #container .terms {
-  width: inherit;
   margin-bottom: 0em;
 }
 html body #container .terms .row .col .terms-contents {
   box-sizing: border-box;
-  padding: 0rem 6.25rem;
 }
 
 /* End Terms & Conditions */
@@ -916,6 +917,7 @@ html body header .ch-right {
 /* Component vertical-tabs */
 .c-vertical-tabs {
   display: flex;
+  width: 83%;
 }
 .c-vertical-tabs * {
   box-sizing: border-box;
