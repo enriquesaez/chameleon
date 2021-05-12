@@ -349,6 +349,21 @@ html body footer .ch-right .ch-try span a {
   color: var(--darker);
 }
 
+/* Terms & Conditions */
+html body #container-100 .terms {
+  width: inherit;
+}
+html body #container-100 .terms .terms-header {
+  height: 13.5rem;
+  padding: 0rem 6.25rem;
+  border-bottom: 1px solid var(--border-top);
+}
+html body #container-100 .terms .terms-header h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+/* Terms & Conditions */
 /* Responsive Tablet & mobile */
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {
   html body #container section.cards {

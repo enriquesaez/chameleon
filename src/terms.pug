@@ -1,0 +1,52 @@
+doctype html
+html(lang='en')
+  head
+    include components/head-content/head-content.pug
+  body
+    header.flex.flex-justify-between.flex-align-center
+      .ch-logo
+        img(src="svg/brand-logo-chameleon-header.svg" alt="Logo Chameleon vision")
+      .ch-right.flex
+        .lang-login.flex.flex-align-center
+          .box-lang 
+            .navbar
+              .dropdown
+                button.dropbtn(onclick='desp()')
+                  | ES
+                  i.arrow.down
+                #myDropdown.dropdown-content
+                  a EN
+          .box-login 
+            span
+              a(href="#") Login
+        .ch-try
+          include components/c-button/c-button.pug
+      include components/c-menu-mobile/c-menu-mobile.pug
+    
+    #container-100
+      section.terms
+        .terms-header.flex.flex-align-center
+            h1 Términos y condiciones
+    
+    footer
+      .ch-logo
+        img(src="svg/brand-logo-chameleon-footer.svg" alt="Logo Chameleon vision")
+      .ch-right.flex
+        .lang-login.flex.flex-align-center
+          .box-lang-footer
+            .navbar
+              .dropdown
+                button.dropbtn(onclick='despfooter()')
+                  | ES
+                  i.arrow.down
+                #myDropdownFooter.dropdown-content
+                  a EN
+          .box-blog 
+            span
+              a(href="#") Blog
+        .ch-try.flex.flex-align-center
+            span
+              a(href="#") Términos y condiciones
+
+include js/c-cookies-js.pug
+include js/c-dropdown-js.pug
