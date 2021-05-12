@@ -373,23 +373,37 @@ html {
 /* Terms & Conditions */
 html {
   body {
-    #container-100 {
+    .terms-header {
+      position: relative;
+      top: -2rem;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0 auto;
+      height: 13.563rem;
+      padding: 0rem 6.25rem;
+      border-bottom: 1px solid var(--border-top);
+      h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+      }
+    }
+    #container {
       .terms {
         width: inherit;
-        .terms-header {
-          height: 13.5rem;
-          padding: 0rem 6.25rem;
-          border-bottom: 1px solid var(--border-top);
-          h1 {
-            font-size: 3rem;
-            line-height: 3.5rem;
+        margin-bottom: 0em;
+        .row {
+          .col {
+            .terms-contents {
+              box-sizing: border-box;
+              padding: 0rem 6.25rem;
+            }
           }
         }
       }
     }
   }
 }
-/* Terms & Conditions */
+/* End Terms & Conditions */
 
 /* Responsive Tablet & mobile */
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {

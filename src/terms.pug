@@ -22,13 +22,15 @@ html(lang='en')
         .ch-try
           include components/c-button/c-button.pug
       include components/c-menu-mobile/c-menu-mobile.pug
-      
-    #container-100
+    .terms-header.flex.flex-align-center
+      h1 Términos y condiciones
+    #container
       section.terms
-        .terms-header.flex.flex-align-center
-          h1 Términos y condiciones
-        .terms-contents 
-          include components/c-vertical-tabs/c-vertical-tabs.pug
+        .row
+          .col
+            .terms-contents 
+              include components/c-vertical-tabs/c-vertical-tabs.pug
+    
     footer
       .ch-logo
         img(src="svg/brand-logo-chameleon-footer.svg" alt="Logo Chameleon vision")
