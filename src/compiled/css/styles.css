@@ -631,6 +631,10 @@ html body header .ch-right {
     min-height: 16em;
     height: auto;
     padding: 1.3em 1.1em;
+    margin-right: 0.55rem;
+  }
+  .c-card .card-square.last {
+    margin-right: 0rem;
   }
 }
 @media only screen and (max-width: 768px) {

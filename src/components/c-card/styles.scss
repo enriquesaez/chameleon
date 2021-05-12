@@ -52,6 +52,10 @@
       min-height: 16em;
       height: auto;
       padding: 1.3em 1.1em;
+      margin-right: 0.55rem;
+      &.last{
+        margin-right: 0rem;
+      }
     }
   }
 }
