@@ -5,22 +5,6 @@
   * {
     box-sizing: border-box;
   }
-  h2 {
-    font-family: 'Barlow-Bold', sans-serif;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: var(--darker);
-  }
-  p {
-    font-family: 'Barlow-Regular', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-bottom: 2rem;
-    color: var(--subtitle);
-    strong {
-      font-family: 'Barlow-Bold', sans-serif;
-    }
-  }
   .tab {
     float: left;
     width: 15.75rem;
@@ -28,7 +12,7 @@
     button {
       display: block;
       background-color: unset;
-      font-family: 'Barlow-Medium', sans-serif;
+      font-family: "Barlow-Medium", sans-serif;
       font-size: 1rem;
       color: var(--darker);
       padding: 1.125rem 0.625rem;
@@ -50,7 +34,33 @@
     float: left;
     width: 37rem;
     border-left: none;
+    h2 {
+      font-family: "Barlow-Bold", sans-serif;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      color: var(--darker);
+    }
+    p {
+      font-family: "Barlow-Regular", sans-serif;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--subtitle);
+      strong {
+        font-family: "Barlow-Bold", sans-serif;
+      }
+    }
+    ul {list-style-type: disc;
+      li {
+        font-family: "Barlow-Regular", sans-serif;
+        line-height: 1.5rem;
+        margin-left: 1.8rem;
+        &::marker {
+          font-size: 0.6rem;
 
+        }
+      }
+    }
   }
 }
 /* End Component vertical-tabs */
