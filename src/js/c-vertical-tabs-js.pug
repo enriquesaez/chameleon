@@ -1,5 +1,5 @@
 script.
-    function openCity(evt, cityName) {
+    function openContent(evt, contentTitle) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
@@ -9,7 +9,7 @@ script.
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-        document.getElementById(cityName).style.display = "block";
+        document.getElementById(contentTitle).style.display = "block";
         evt.currentTarget.className += " active";
     }
     document.getElementById("defaultOpen").click();
