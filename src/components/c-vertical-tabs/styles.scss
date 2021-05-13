@@ -92,10 +92,13 @@
 @media only screen and (max-width: 768px) {
   .c-vertical-tabs {
     .tab {
+      width: 14.75rem;
+      margin-right: 0rem;
       button {
       }
     }
     .tabcontent {
+      width: 22.5rem;
     }
   }
 }

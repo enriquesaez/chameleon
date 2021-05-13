@@ -1015,6 +1015,15 @@ html body header .ch-right {
   font-size: 0.6rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .c-vertical-tabs .tab {
+    width: 14.75rem;
+    margin-right: 0rem;
+  }
+  .c-vertical-tabs .tabcontent {
+    width: 22.5rem;
+  }
+}
 /* End Component vertical-tabs */
 /* END Web components */
 /* Color variables */
