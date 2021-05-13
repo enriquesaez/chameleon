@@ -950,6 +950,7 @@ html body header .ch-right {
 .c-vertical-tabs .tabcontent {
   float: left;
   width: 37rem;
+  min-height: 30rem;
   border-left: none;
 }
 .c-vertical-tabs .tabcontent h2 {
@@ -957,6 +958,22 @@ html body header .ch-right {
   font-size: 2rem;
   line-height: 2.5rem;
   color: var(--darker);
+}
+.c-vertical-tabs .tabcontent h3 {
+  display: inline-block;
+  font-family: "Barlow-Regular", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--subtitle);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.c-vertical-tabs .tabcontent h4 {
+  font-family: "Barlow-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--subtitle);
+  margin-bottom: 0.5rem;
 }
 .c-vertical-tabs .tabcontent p {
   font-family: "Barlow-Regular", sans-serif;
@@ -978,6 +995,7 @@ html body header .ch-right {
 }
 .c-vertical-tabs .tabcontent ul {
   list-style-type: disc;
+  margin-bottom: 1.5rem;
 }
 .c-vertical-tabs .tabcontent ul li {
   font-family: "Barlow-Regular", sans-serif;
