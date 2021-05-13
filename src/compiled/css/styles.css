@@ -374,6 +374,15 @@ html body #container .terms .row .col .terms-contents {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+  html body .terms-header {
+    height: 10.5rem;
+  }
+  html body .terms-header .wrapper h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
 /* End Terms & Conditions */
 /* Responsive Tablet & mobile */
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {

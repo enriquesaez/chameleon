@@ -89,4 +89,14 @@
     }
   }
 }
+@media only screen and (max-width: 768px) {
+  .c-vertical-tabs {
+    .tab {
+      button {
+      }
+    }
+    .tabcontent {
+    }
+  }
+}
 /* End Component vertical-tabs */
