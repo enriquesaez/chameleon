@@ -89,16 +89,42 @@
     }
   }
 }
+@media only screen and (max-width: 980px) and (min-width: 769px) {
+  .c-vertical-tabs {
+    .tab {
+      width: 14.75rem;
+      margin-right: 1rem;
+    }
+    .tabcontent {
+      width: 28rem;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .c-vertical-tabs {
     .tab {
       width: 14.75rem;
       margin-right: 0rem;
-      button {
-      }
     }
     .tabcontent {
       width: 22.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .c-vertical-tabs {
+    width: 95%;
+    .tab {
+      display: none;
+    }
+    .tabcontent {
+      width: 100%;
+      h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
     }
   }
 }
