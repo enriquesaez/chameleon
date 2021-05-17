@@ -1,0 +1,21 @@
+.c-menu-mobile
+  .separate
+  .cmb-container
+    input#burger(type='checkbox')
+    label(for='burger')
+      span
+      span
+      span
+    .logo-mobile
+      img(src="svg/brand-logo-chameleon-mobile.svg" alt="Logo Chameleon vision")
+    nav
+      ul
+        li 
+          a Idioma
+        li.flex.flex-justify-center
+          a(href="#").active ES
+          a(href="#") EN
+        li 
+          a Login
+        li
+          include ../c-button/c-button.pug
