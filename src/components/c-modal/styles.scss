@@ -32,12 +32,12 @@ button#termsBtn {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     background-color: var(--lighter);
-    padding: 0 0.7rem 12rem;
+    padding: 0 1rem 12rem;
     border-radius: 8px;
     box-shadow: 0 0 4px 0 #cfcfd0;
     //border-bottom: 1px solid;
     .modal-content_header {
-      height: 90px;
+      height: 5rem;
       display: flex;
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -48,11 +48,10 @@ button#termsBtn {
       -ms-flex-pack: justify;
       -webkit-justify-content: space-between;
       .c-modal-title {
-        text-transform: uppercase;
-        color: var(--tertiary);
-        font-family: "Benton Sans Bold BBVA", sans-serif;
-        font-size: 15px;
-        letter-spacing: 0;
+        font-family: 'Barlow-Regular', sans-serif;
+        color: var(--subtitle);
+        font-size: 1.25rem;
+        line-height: 1.2rem;
       }
       .close {
         color: var(--fifth);

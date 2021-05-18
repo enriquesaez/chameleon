@@ -969,12 +969,12 @@ button#termsBtn {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   background-color: var(--lighter);
-  padding: 0 0.7rem 12rem;
+  padding: 0 1rem 12rem;
   border-radius: 8px;
   box-shadow: 0 0 4px 0 #cfcfd0;
 }
 .c-modal .modal-content .modal-content_header {
-  height: 90px;
+  height: 5rem;
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -985,11 +985,10 @@ button#termsBtn {
   -webkit-justify-content: space-between;
 }
 .c-modal .modal-content .modal-content_header .c-modal-title {
-  text-transform: uppercase;
-  color: var(--tertiary);
-  font-family: "Benton Sans Bold BBVA", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0;
+  font-family: "Barlow-Regular", sans-serif;
+  color: var(--subtitle);
+  font-size: 1.25rem;
+  line-height: 1.2rem;
 }
 .c-modal .modal-content .modal-content_header .close {
   color: var(--fifth);
