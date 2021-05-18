@@ -65,6 +65,21 @@
                   <button class="tablinks" onclick="openContent(event, 'Cookies')">Cookies</button>
                 </div>
                 <div class="tabcontent" id="Terms">
+                  <button id="termsBtn">Press me to render the modal</button>
+                  <div class="c-modal" id="myModal">
+                    <div class="modal-content">
+                      <div class="modal-content_header">
+                        <p class="c-modal-title">Términos de servicio</p><span class="close">×</span>
+                      </div>
+                      <div class="modal-content_body">
+                        <ul>
+                          <li>uno</li>
+                          <li>dos</li>
+                          <li>tres</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                   <h2>Términos de Servicio del Usuario de Chameleon</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam itaque, alias ab ipsum ad illum <strong>facere nostrum</strong>, nobis saepe quia libero. Ipsa sapiente debitis voluptatem laboriosam fugit minus veniam reprehenderit.Assumenda aliquid nostrum iste atque soluta, <a href="#">rerum adipisci maiores</a>, laboriosam vel maxime impedit ratione modi veniam neque non. </p>
                   <p>Rem illo iste recusandae iusto <strong>soluta ipsum </strong>deserunt sit quam vel eum. Deserunt incidunt id saepe, eaque cupiditate aliquid dolorum, repudiandae dolor totam pariatur similique debitis et ipsum <strong>praesentium </strong>facilis architecto tenetur. Nam voluptate a delectus sint minus saepe alias maiores quia.Iste veniam rem quasi voluptatibus vero sunt placeat unde cupiditate! Deserunt nihil <a href="#">aspernatur similique minima</a></p>
@@ -219,4 +234,20 @@
       evt.currentTarget.className += " active";
   }
   document.getElementById("defaultOpen").click();
+</script>
+<script>
+  var modal = document.getElementById("myModal");
+  var btn = document.getElementById("termsBtn");
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
 </script>
