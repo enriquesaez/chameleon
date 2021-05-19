@@ -837,10 +837,10 @@ html body header .ch-right {
   width: 18px;
   z-index: 5;
 }
-.c-menu-mobile .cmb-container .logo-mobile {
+.c-menu-mobile .cmb-container a .logo-mobile {
   position: fixed;
   z-index: 4;
-  width: 90%;
+  width: 80%;
   height: 3.4rem;
   display: flex;
   display: -webkit-flex;
@@ -851,7 +851,7 @@ html body header .ch-right {
   -ms-flex-align: center;
   -webkit-align-items: center;
 }
-.c-menu-mobile .cmb-container .logo-mobile img {
+.c-menu-mobile .cmb-container a .logo-mobile img {
   width: 33px;
   height: 38px;
 }

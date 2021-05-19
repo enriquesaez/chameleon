@@ -21,24 +21,25 @@
       width: 18px;
       z-index: 5;
     }
-
-    .logo-mobile {
-      position: fixed;
-      z-index: 4;
-      width: 90%;
-      height: 3.4rem;
-      display: flex;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      justify-content: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      align-items: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      img {
-        width: 33px;
-        height: 38px;
+    a {
+      .logo-mobile {
+        position: fixed;
+        z-index: 4;
+        width: 80%;
+        height: 3.4rem;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        img {
+          width: 33px;
+          height: 38px;
+        }
       }
     }
 
@@ -130,8 +131,8 @@
               }
             }
             .c-button {
-                width: 100%;
-                margin-top: 1.5rem;
+              width: 100%;
+              margin-top: 1.5rem;
             }
           }
         }
