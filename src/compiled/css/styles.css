@@ -1049,6 +1049,9 @@ html body header .ch-right {
   min-height: 30rem;
   border-left: none;
 }
+.c-vertical-tabs .tabcontent #termsBtn {
+  display: none;
+}
 .c-vertical-tabs .tabcontent h2 {
   font-family: "Barlow-Bold", sans-serif;
   font-size: 2rem;
@@ -1129,6 +1132,9 @@ html body header .ch-right {
   }
   .c-vertical-tabs .tabcontent {
     width: 100%;
+  }
+  .c-vertical-tabs .tabcontent #termsBtn {
+    display: flex;
   }
   .c-vertical-tabs .tabcontent h2 {
     font-size: 1.5rem;

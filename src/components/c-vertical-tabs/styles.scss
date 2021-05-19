@@ -35,6 +35,9 @@
     width: 37rem;
     min-height: 30rem;
     border-left: none;
+    #termsBtn {
+      display: none;
+    }
     h2 {
       font-family: "Barlow-Bold", sans-serif;
       font-size: 2rem;
@@ -121,6 +124,9 @@
     }
     .tabcontent {
       width: 100%;
+      #termsBtn {
+        display: flex;
+      }
       h2 {
         font-size: 1.5rem;
         line-height: 2rem;
