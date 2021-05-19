@@ -86,9 +86,14 @@ html {
                 width: 3rem;
                 height: 2rem;
                 padding: 0rem;
-                border-radius: 8px;
-                box-shadow: 0 0 4px 0 #cfcfd0;
+                border-radius: 0.5rem;
+                box-shadow: 0 0 0.25rem 0 #cfcfd0;
                 background-color: var(--lighter);
+                &::after {
+                  content: url("../img/tooltip-arrow.png");
+                  position: relative;
+                  top: -77px;
+                }
                 a {
                   float: none;
                   font-family: "Barlow-Medium", sans-serif;
