@@ -93,7 +93,8 @@ html body header .ch-right .lang-login .box-lang .navbar .dropdown-content {
 html body header .ch-right .lang-login .box-lang .navbar .dropdown-content::after {
   content: url("../img/tooltip-arrow.png");
   position: relative;
-  top: -77px;
+  top: -44px;
+  left: 20px;
 }
 html body header .ch-right .lang-login .box-lang .navbar .dropdown-content a {
   float: none;
