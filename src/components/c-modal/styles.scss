@@ -34,6 +34,12 @@
   //background-color: rgb(0, 0, 0);
   background-color: rgba(17, 33, 51, 0.88);
   .modal-content {
+    .separate {
+      width: 100%;
+      border-top: 1px solid var(--scale--lighter);
+      position: relative;
+      top: 4.75rem;
+    }
     position: absolute;
     top: 50%;
     //left: 50%;
@@ -44,7 +50,8 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     background-color: var(--lighter);
-    padding: 0 1rem 12rem;
+    //padding: 0 1rem 12rem;
+    padding: 0;
     border-radius: 8px;
     box-shadow: 0 0 4px 0 #cfcfd0;
     //border-bottom: 1px solid;
@@ -59,6 +66,7 @@
       justify-content: space-between;
       -ms-flex-pack: justify;
       -webkit-justify-content: space-between;
+      padding: 0rem 1rem;
       .c-modal-title {
         font-family: "Barlow-Regular", sans-serif;
         color: var(--subtitle);
@@ -76,6 +84,7 @@
       }
     }
     .modal-content_body {
+      padding: 0rem 1rem;
     }
   }
 }

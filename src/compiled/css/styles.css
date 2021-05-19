@@ -902,7 +902,7 @@ html body header .ch-right {
   top: 0;
   left: 0;
   width: 100%;
-  height: 4rem;
+  height: 4.5rem;
   z-index: 3;
   transition: 0.3s;
   transition-delay: 0.3s;
@@ -980,9 +980,15 @@ html body header .ch-right {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   background-color: var(--lighter);
-  padding: 0 1rem 12rem;
+  padding: 0;
   border-radius: 8px;
   box-shadow: 0 0 4px 0 #cfcfd0;
+}
+.c-modal .modal-content .separate {
+  width: 100%;
+  border-top: 1px solid var(--scale--lighter);
+  position: relative;
+  top: 4.75rem;
 }
 .c-modal .modal-content .modal-content_header {
   height: 5rem;
@@ -994,6 +1000,7 @@ html body header .ch-right {
   justify-content: space-between;
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
+  padding: 0rem 1rem;
 }
 .c-modal .modal-content .modal-content_header .c-modal-title {
   font-family: "Barlow-Regular", sans-serif;
@@ -1009,6 +1016,10 @@ html body header .ch-right {
   text-decoration: none;
   cursor: pointer;
 }
+.c-modal .modal-content .modal-content_body {
+  padding: 0rem 1rem;
+}
+
 /* End c-modal */
 /* Component vertical-tabs */
 .c-vertical-tabs {
