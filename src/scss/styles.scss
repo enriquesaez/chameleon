@@ -82,9 +82,13 @@ html {
               .dropdown-content {
                 display: none;
                 position: absolute;
-                background-color: #dddddd;
-                min-width: 33px;
                 z-index: 1;
+                width: 3rem;
+                height: 2rem;
+                padding: 0rem;
+                border-radius: 8px;
+                box-shadow: 0 0 4px 0 #cfcfd0;
+                background-color: var(--lighter);
                 a {
                   float: none;
                   font-family: "Barlow-Medium", sans-serif;
@@ -93,7 +97,7 @@ html {
                   padding: 0.5em;
                   text-decoration: none;
                   display: block;
-                  text-align: left;
+                  text-align: right;
                   cursor: pointer;
                 }
               }
