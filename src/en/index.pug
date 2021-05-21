@@ -1,13 +1,18 @@
 doctype html
 html(lang='en')
   head
-    include components/head-content/head-content.pug
+    style(stylesheet='').
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Chameleon - Visión 360º de tus proyectos
+    link(href='../css/styles.css', rel='stylesheet', type='text/css')
+    link(rel='shortcut icon' href='../favicon.png')
   body
-    include components/c-cookies/c-cookies.pug
     header.flex.flex-justify-between.flex-align-center
       .ch-logo
         a(href="index.html") 
-          img(src="svg/brand-logo-chameleon-header.svg" alt="Logo Chameleon vision")
+          img(src="../svg/brand-logo-chameleon-header.svg" alt="Logo Chameleon vision")
       .ch-right.flex
         .lang-login.flex.flex-align-center
           .box-lang 
@@ -22,24 +27,24 @@ html(lang='en')
             span
               a(href="https://app.chameleon.vision/") Login
         .ch-try
-          include components/c-button/c-button.pug
-      include components/c-menu-mobile/c-menu-mobile.pug
+          include ../components/c-button/c-button.pug
+      include ../components/c-menu-mobile/c-menu-mobile.pug
 
     #container
       section.top-area.flex-column.flex-asis
-        h1 La herramienta que te permite tener una visión 360&#176 de tus proyectos
-        include components/c-button/c-button.pug
+        h1 [ENGLISH]La herramienta que te permite tener una visión 360&#176 de tus proyectos
+        include ../components/c-button/c-button.pug
       section.body-area
         div.flex-column
           h2 Conoce el estado de todos tus proyectos
           p Visualiza el estado global de todos tus proyectos. Obtén información del progreso, bloqueos y dependencias.
         div.flex.flex-justify-center
-          img(src="img/proyectos.png", alt="")
+          img(src="../img/proyectos.png", alt="")
     
     #container-100
       section.body-area-2
         div
-          img(src="img/hitos.png", alt="")
+          img(src="../img/hitos.png", alt="")
         .flex-column
           h2 Visualiza la información relevante
           p Obtén información de tus hitos, entregas y estado global de las tareas de tus proyectos.
@@ -50,21 +55,24 @@ html(lang='en')
             h2 Identifica y elimina impedimentos
             p Resuelve rápidamente riesgos, bloqueos y dependencias en tus proyectos.
         .ch-image
-          img(src="img/dependencias.png", alt="")
+          img(src="../img/dependencias.png", alt="")
       
     #container
       section.quote.flex.flex-justify-center
         .quote-img
-          img(src="img/ico-quote.png", alt="")
+          img(src="../img/ico-quote.png", alt="")
         .quote-text.flex.flex-align-end
           h3 Cambia las reglas del juego, simplificando tu forma de gestionar los proyectos      
         .quote-img.flex.flex-align-end
-          img.rotate-180(src="img/ico-quote.png", alt="")
+          img.rotate-180(src="../img/ico-quote.png", alt="")
       section.cards.flex
-        include components/c-card/c-card.pug
+        include ../components/c-card/c-card.pug
+        include ../components/c-card/c-card.pug
+        include ../components/c-card/c-card.pug
+        include ../components/c-card/c-card.pug
       .row
         .col-12.flex.flex-justify-center
-          include components/c-button/c-button.pug
+          include ../components/c-button/c-button.pug
       
     footer
       .ch-logo
@@ -86,5 +94,5 @@ html(lang='en')
             span
               a(href="terms.html") Términos y condiciones
 
-include js/c-cookies-js.pug
-include js/c-dropdown-js.pug
+include ../js/c-cookies-js.pug
+include ../js/c-dropdown-js.pug
