@@ -630,12 +630,13 @@ html body header .ch-right {
 /* Web components */
 /* c-button component */
 .c-button {
+  -webkit-appearance: button;
+  appearance: button;
+  text-decoration: none;
   width: 7.875rem;
   height: 2.5rem;
-  border: 0px;
   border-radius: 1.5rem;
   background-color: var(--brand-primary);
-  cursor: pointer;
 }
 .c-button span {
   color: var(--lighter);
