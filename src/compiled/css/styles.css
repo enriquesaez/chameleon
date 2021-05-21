@@ -633,6 +633,14 @@ html body header .ch-right {
   -webkit-appearance: button;
   appearance: button;
   text-decoration: none;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   width: 7.875rem;
   height: 2.5rem;
   border-radius: 1.5rem;
@@ -948,6 +956,17 @@ html body header .ch-right {
   font-size: 1rem;
   display: block;
   padding: 30px 12px;
+}
+.c-menu-mobile .cmb-container input ~ nav > ul > li > a.c-button {
+  padding: unset;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
 }
 .c-menu-mobile .cmb-container input ~ nav > ul > li > a.active {
   color: var(--brand-primary);

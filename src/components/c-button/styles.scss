@@ -4,6 +4,15 @@
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   width: 7.875rem;
   height: 2.5rem;
   border-radius: 1.5rem;
