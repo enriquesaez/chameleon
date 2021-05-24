@@ -1023,7 +1023,7 @@ html body header .ch-right {
   border-radius: 8px;
   box-shadow: 0 0 4px 0 #cfcfd0;
   position: relative;
-  animation-name: example;
+  animation-name: animterms;
   animation-duration: 0.4s;
   animation-delay: 0.2s;
   animation-fill-mode: both;
@@ -1034,7 +1034,7 @@ html body header .ch-right {
   position: relative;
   top: 4.75rem;
 }
-@keyframes example {
+@keyframes animterms {
   from {
     bottom: 0px;
   }
