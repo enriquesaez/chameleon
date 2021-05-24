@@ -40,21 +40,25 @@
       position: relative;
       top: 4.75rem;
     }
-    position: absolute;
-    top: 50%;
-    //left: 50%;
-    //transform: translate(-50%, -50%);
-    height: 100%;
+    top: 100%;
+    height: 0%;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     background-color: var(--lighter);
-    //padding: 0 1rem 12rem;
     padding: 0;
     border-radius: 8px;
     box-shadow: 0 0 4px 0 #cfcfd0;
-    //border-bottom: 1px solid;
+    position: relative;
+    animation-name: example;
+    animation-duration: 0.4s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    @keyframes example {
+      from {bottom: 0px;}
+      to {top: 50%; height: 600px;}
+    }
     .modal-content_header {
       height: 5rem;
       display: flex;
