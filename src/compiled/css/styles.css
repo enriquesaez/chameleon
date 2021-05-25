@@ -130,8 +130,8 @@ html body #container {
 html body #container .c-button {
   width: 10.125rem;
 }
-html body #container section.top-area {
-  width: 75%;
+html body #container section.top-area h1 {
+  width: 90%;
 }
 html body #container section.body-area {
   width: 60%;

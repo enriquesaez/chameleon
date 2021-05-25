@@ -140,7 +140,9 @@ html {
       }
       section {
         &.top-area {
-          width: 75%;
+          h1 {
+            width: 90%;
+          }
         }
         &.body-area {
           width: 60%;
