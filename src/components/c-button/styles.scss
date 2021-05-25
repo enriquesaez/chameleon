@@ -1,8 +1,9 @@
 /* c-button component */
 .c-button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+  // -webkit-appearance: button;
+  // -moz-appearance: button;
+  // appearance: button;
+  -webkit-appearance: none;
   text-decoration: none;
   display: flex;
   display: -ms-flexbox;

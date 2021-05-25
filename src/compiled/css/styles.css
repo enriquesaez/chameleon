@@ -630,8 +630,7 @@ html body header .ch-right {
 /* Web components */
 /* c-button component */
 .c-button {
-  -webkit-appearance: button;
-  appearance: button;
+  -webkit-appearance: none;
   text-decoration: none;
   display: flex;
   display: -webkit-flex;
