@@ -215,7 +215,7 @@ html body #container-100 section {
 html body #container section h1,
 html body #container-100 section h1 {
   text-align: center;
-  margin-bottom: 0.7em;
+  margin-bottom: 3rem;
 }
 html body #container section.body-area,
 html body #container-100 section.body-area {
@@ -497,6 +497,9 @@ html body #container .terms .row .col .terms-contents {
   }
   html body h1 {
     font-size: 2em;
+  }
+  html body #container section h1 {
+    margin-bottom: 2rem;
   }
   html body #container section.cards {
     width: 100%;
