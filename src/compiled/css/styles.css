@@ -125,7 +125,7 @@ html body header .ch-right .ch-try {
 }
 html body #container {
   max-width: 90em;
-  padding: 1.4em;
+  padding: 1.4em 0;
 }
 html body #container .c-button {
   width: 10.125rem;
@@ -134,17 +134,21 @@ html body #container section.top-area h1 {
   width: 90%;
 }
 html body #container section.body-area {
-  width: 60%;
+  display: flex;
+  display: -webkit-flex;
+  padding-left: 12.25rem;
+}
+html body #container section.body-area > div:first-child {
+  width: 26.688rem;
+}
+html body #container section.body-area > div.separate-blocks {
+  width: 12.125rem;
 }
 html body #container section.body-area > div p {
   font-family: "Barlow-Regular", sans-serif;
   font-size: 1.5em;
   line-height: 1.33;
   color: var(--scale--darker);
-}
-html body #container section.body-area > div img {
-  width: 300px;
-  height: 243px;
 }
 html body #container-100 {
   width: 100%;
@@ -158,17 +162,20 @@ html body #container-100 section.body-area-2 {
   display: -webkit-flex;
   width: 100%;
 }
+html body #container-100 section.body-area-2 > div img {
+  height: 200px;
+}
 html body #container-100 section.body-area-2 > div:first-child {
-  padding: 0em;
-  overflow: hidden;
-  width: 50%;
-  margin-right: 3em;
+  width: 38.938rem;
   display: flex;
-  justify-content: flex-end;
+  display: -webkit-flex;
+  flex-direction: row-reverse;
+}
+html body #container-100 section.body-area-2 > div.separate-blocks {
+  width: 12.125rem;
 }
 html body #container-100 section.body-area-2 > div:last-child {
-  margin-left: 3em;
-  width: 27em;
+  width: 26.813rem;
 }
 html body #container-100 section.body-area-2 > div p {
   font-family: "Barlow-Regular", sans-serif;
@@ -205,7 +212,6 @@ html body #container,
 html body #container-100 {
   box-sizing: border-box;
   margin: 0 auto;
-  margin-bottom: 3em;
 }
 html body #container section,
 html body #container-100 section {
@@ -221,12 +227,6 @@ html body #container section.body-area,
 html body #container-100 section.body-area {
   display: flex;
   display: -webkit-flex;
-}
-html body #container section.body-area > div:first-child,
-html body #container-100 section.body-area > div:first-child {
-  margin-right: 2em;
-  margin-bottom: 2em;
-  padding: 0em 1em 0em 1em;
 }
 html body #container section.quote,
 html body #container-100 section.quote {
