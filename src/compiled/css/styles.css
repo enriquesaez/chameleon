@@ -22,9 +22,9 @@ html body h3 {
 html body header {
   box-sizing: border-box;
   width: 100%;
-  height: 4.75em;
+  height: 4.875em;
   padding: 0 1.5em 0 1.15em;
-  margin-bottom: 2em;
+  margin-bottom: 3.6rem;
 }
 html body header .c-menu-mobile {
   display: none;
@@ -492,6 +492,9 @@ html body #container .terms .row .col .terms-contents {
   }
 }
 @media only screen and (max-width: 559px) {
+  html body header {
+    margin-bottom: 2.1rem;
+  }
   html body h1 {
     font-size: 2em;
   }

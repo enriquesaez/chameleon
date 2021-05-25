@@ -23,9 +23,9 @@ html {
     header {
       box-sizing: border-box;
       width: 100%;
-      height: 4.75em;
+      height: 4.875em;
       padding: 0 1.5em 0 1.15em;
-      margin-bottom: 2em;
+      margin-bottom: 3.6rem;
       .c-menu-mobile {
         display: none;
       }
@@ -638,6 +638,9 @@ html {
 @media only screen and (max-width: 559px) {
   html {
     body {
+      header {
+        margin-bottom: 2.1rem;
+      }
       h1 {
         font-size: 2em;
       }
