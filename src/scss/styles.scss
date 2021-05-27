@@ -210,11 +210,11 @@ html {
           display: flex;
           display: -webkit-flex;
           width: 100%;
-          padding-left: 9.25rem;
           .ch-copy {
-            // margin-right: 4em;
             width: 29rem;
+            padding-left: 9.25rem;
             .ch-copy--container {
+              width: 29rem;
               p {
                 font-family: "Barlow-Regular", sans-serif;
                 font-size: 1.5em;
@@ -227,8 +227,12 @@ html {
             width: 12.125rem;
           }
           .ch-image {
-            // margin-left: 4em;
+            display: flex;
+            display: -webkit-flex;
             overflow: hidden;
+            img {
+              overflow: hidden;
+            }
           }
         }
       }

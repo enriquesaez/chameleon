@@ -190,9 +190,12 @@ html body #container-100 section.body-area-3 {
   display: flex;
   display: -webkit-flex;
   width: 100%;
-  padding-left: 9.25rem;
 }
 html body #container-100 section.body-area-3 .ch-copy {
+  width: 29rem;
+  padding-left: 9.25rem;
+}
+html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
   width: 29rem;
 }
 html body #container-100 section.body-area-3 .ch-copy .ch-copy--container p {
@@ -205,6 +208,11 @@ html body #container-100 section.body-area-3 .separate-blocks {
   width: 12.125rem;
 }
 html body #container-100 section.body-area-3 .ch-image {
+  display: flex;
+  display: -webkit-flex;
+  overflow: hidden;
+}
+html body #container-100 section.body-area-3 .ch-image img {
   overflow: hidden;
 }
 html body #container,
