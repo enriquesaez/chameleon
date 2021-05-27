@@ -23,7 +23,7 @@ html body header {
   box-sizing: border-box;
   width: 100%;
   height: 4.875em;
-  padding: 0 1.5em 0 1.15em;
+  padding: 0 1rem 0 1rem;
   margin-bottom: 5rem;
 }
 html body header .c-menu-mobile {
@@ -235,6 +235,12 @@ html body #container-100 section.body-area {
   display: flex;
   display: -webkit-flex;
 }
+html body #container section.body-area > div:first-child,
+html body #container-100 section.body-area > div:first-child {
+  margin-right: 2em;
+  margin-bottom: 2em;
+  padding: 0em 1em 0em 1em;
+}
 html body #container section.quote,
 html body #container-100 section.quote {
   text-align: center;
@@ -274,7 +280,7 @@ html body footer {
   justify-content: space-between;
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
-  padding: 0 1.5em 0 1.15em;
+  padding: 0 1rem 0 1rem;
   border-top: 1px solid var(--border-top);
   height: 4.5rem;
   margin-bottom: 0em;
@@ -424,7 +430,7 @@ html body #container .terms .row .col .terms-contents {
   }
 }
 /* End Terms & Conditions */
-/* Responsive Tablet & mobile */
+/* Comun measures for Desktop, Tablet & mobile */
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {
   html body #container section.cards {
     width: 88%;
@@ -432,6 +438,7 @@ html body #container .terms .row .col .terms-contents {
     justify-content: space-evenly;
   }
 }
+/* Comun measures for Desktop, Tablet & mobile */
 @media only screen and (max-width: 1265px) and (min-width: 769px) {
   html body #container section.cards {
     width: 70%;
@@ -439,12 +446,7 @@ html body #container .terms .row .col .terms-contents {
     justify-content: space-evenly;
   }
 }
-@media only screen and (max-width: 1080px) and (min-width: 1025px) {
-  html body #container section.cards {
-    width: 79%;
-  }
-}
-/* Containers & Sections || Tablet Landscape*/
+/* Containers & Sections for Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   html body #container section.top-area h1 {
     width: 90%;
@@ -463,7 +465,7 @@ html body #container .terms .row .col .terms-contents {
     width: 75%;
   }
 }
-/* Containers & Sections || Tablet Portrait*/
+/* Containers & Sections for Tablet Portrait*/
 @media only screen and (max-width: 768px) and (min-width: 600px) {
   html body #container section.top-area h1 {
     width: 65%;
@@ -514,12 +516,7 @@ html body #container .terms .row .col .terms-contents {
     overflow: unset;
   }
 }
-@media only screen and (max-width: 1023px) and (min-width: 769px) {
-  html body #container section.cards {
-    width: 80%;
-  }
-}
-/* Font Styles || Tablet Portrait*/
+/* Font Styles for Tablet Portrait*/
 @media only screen and (max-width: 768px) {
   html body h2 {
     font-size: 1.5em;
@@ -534,7 +531,7 @@ html body #container .terms .row .col .terms-contents {
     font-size: 1rem;
   }
 }
-/* c-cards Styles || Tablet Portrait*/
+/* c-cards Styles for Tablet Portrait*/
 @media only screen and (max-width: 768px) and (min-width: 560px) {
   html body h1 {
     font-size: 3em;
@@ -568,7 +565,7 @@ html body #container .terms .row .col .terms-contents {
     height: 2.5rem;
   }
 }
-/* Containers, Sectors c-cars || Mobile */
+/* Containers, Sectors c-cars for Mobile */
 @media only screen and (max-width: 599px) {
   html body #container {
     width: 100%;
@@ -666,7 +663,7 @@ html body #container-100 section.body-area-3 .ch-image {
     width: 546px;
   }
 }
-/* Header & Footer Styles || Mobile*/
+/* Header & Footer Styles for Mobile*/
 @media only screen and (max-width: 599px) {
   html body header .ch-logo,
 html body header .ch-right {
