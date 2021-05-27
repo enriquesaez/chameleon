@@ -271,23 +271,23 @@ html body footer {
   height: 4.5rem;
   margin-bottom: 0em;
 }
-html body footer .ch-right .box-lang-footer {
+html body footer .ch-right .lang-login .box-lang-footer {
   margin-right: 2rem;
 }
-html body footer .ch-right .box-lang-footer .navbar {
+html body footer .ch-right .lang-login .box-lang-footer .navbar {
   overflow: hidden;
 }
-html body footer .ch-right .box-lang-footer .navbar a {
+html body footer .ch-right .lang-login .box-lang-footer .navbar a {
   float: left;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown {
   float: left;
   overflow: hidden;
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown .dropbtn {
   border: none;
   outline: none;
   background-color: inherit;
@@ -297,7 +297,7 @@ html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn {
   color: var(--darker);
   cursor: pointer;
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown .dropbtn .arrow {
   border: solid var(--darker);
   border-width: 0 0.094rem 0.094rem 0;
   display: inline-block;
@@ -305,23 +305,23 @@ html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow {
   margin-left: 0.5rem;
   margin-bottom: 0.2rem;
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow.right {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown .dropbtn .arrow.right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow.left {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown .dropbtn .arrow.left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow.up {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown .dropbtn .arrow.up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown .dropbtn .arrow.down {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown .dropbtn .arrow.down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown-content {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
@@ -332,13 +332,13 @@ html body footer .ch-right .box-lang-footer .navbar .dropdown-content {
   box-shadow: 0 0 0.25rem 0 #cfcfd0;
   background-color: var(--lighter);
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown-content::after {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown-content::after {
   content: url("../img/tooltip-arrow.png");
   position: relative;
   top: -44px;
   left: 20px;
 }
-html body footer .ch-right .box-lang-footer .navbar .dropdown-content a {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .dropdown-content a {
   float: none;
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
@@ -349,13 +349,13 @@ html body footer .ch-right .box-lang-footer .navbar .dropdown-content a {
   text-align: right;
   cursor: pointer;
 }
-html body footer .ch-right .box-lang-footer .navbar .show {
+html body footer .ch-right .lang-login .box-lang-footer .navbar .show {
   display: block;
 }
-html body footer .ch-right .box-blog {
+html body footer .ch-right .lang-login .box-blog {
   margin-right: 1em;
 }
-html body footer .ch-right .box-blog span a {
+html body footer .ch-right .lang-login .box-blog span a {
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
   text-decoration: none;

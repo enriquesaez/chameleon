@@ -155,7 +155,7 @@ html {
               // margin-right: 12.25rem;
             }
             &.separate-blocks {
-              width: 12.125rem;              
+              width: 12.125rem;
             }
             p {
               font-family: "Barlow-Regular", sans-serif;
@@ -192,7 +192,7 @@ html {
               flex-direction: row-reverse;
             }
             &.separate-blocks {
-              width: 12.125rem;              
+              width: 12.125rem;
             }
             &:last-child {
               // margin-left: 3em;
@@ -224,7 +224,7 @@ html {
             }
           }
           .separate-blocks {
-            width: 12.125rem;             
+            width: 12.125rem;
           }
           .ch-image {
             // margin-left: 4em;
@@ -300,95 +300,97 @@ html {
       height: 4.5rem;
       margin-bottom: 0em;
       .ch-right {
-        .box-lang-footer {
-          margin-right: 2rem;
-          .navbar {
-            overflow: hidden;
-            a {
-              float: left;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-            }
-            .dropdown {
-              float: left;
+        .lang-login {
+          .box-lang-footer {
+            margin-right: 2rem;
+            .navbar {
               overflow: hidden;
-              .dropbtn {
-                border: none;
-                outline: none;
-                background-color: inherit;
-                margin: 0em;
-                font-family: "Barlow-Medium", sans-serif;
-                font-size: 1rem;
-                color: var(--darker);
-                cursor: pointer;
-                .arrow {
-                  border: solid var(--darker);
-                  border-width: 0 0.094rem 0.094rem 0;
-                  display: inline-block;
-                  padding: 4px;
-                  margin-left: 0.5rem;
-                  margin-bottom: 0.2rem;
-                  &.right {
-                    transform: rotate(-45deg);
-                    -webkit-transform: rotate(-45deg);
-                  }
-                  &.left {
-                    transform: rotate(135deg);
-                    -webkit-transform: rotate(135deg);
-                  }
-                  &.up {
-                    transform: rotate(-135deg);
-                    -webkit-transform: rotate(-135deg);
-                  }
-                  &.down {
-                    transform: rotate(45deg);
-                    -webkit-transform: rotate(45deg);
+              a {
+                float: left;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              .dropdown {
+                float: left;
+                overflow: hidden;
+                .dropbtn {
+                  border: none;
+                  outline: none;
+                  background-color: inherit;
+                  margin: 0em;
+                  font-family: "Barlow-Medium", sans-serif;
+                  font-size: 1rem;
+                  color: var(--darker);
+                  cursor: pointer;
+                  .arrow {
+                    border: solid var(--darker);
+                    border-width: 0 0.094rem 0.094rem 0;
+                    display: inline-block;
+                    padding: 4px;
+                    margin-left: 0.5rem;
+                    margin-bottom: 0.2rem;
+                    &.right {
+                      transform: rotate(-45deg);
+                      -webkit-transform: rotate(-45deg);
+                    }
+                    &.left {
+                      transform: rotate(135deg);
+                      -webkit-transform: rotate(135deg);
+                    }
+                    &.up {
+                      transform: rotate(-135deg);
+                      -webkit-transform: rotate(-135deg);
+                    }
+                    &.down {
+                      transform: rotate(45deg);
+                      -webkit-transform: rotate(45deg);
+                    }
                   }
                 }
               }
-            }
-            .dropdown-content {
-              display: none;
-              position: absolute;
-              z-index: 1;
-              width: 3rem;
-              height: 2rem;
-              padding: 0rem;
-              border-radius: 0.5rem;
-              box-shadow: 0 0 0.25rem 0 #cfcfd0;
-              background-color: var(--lighter);
-              &::after {
-                content: url("../img/tooltip-arrow.png");
-                position: relative;
-                top: -44px;
-                left: 20px;
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                z-index: 1;
+                width: 3rem;
+                height: 2rem;
+                padding: 0rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 0 0.25rem 0 #cfcfd0;
+                background-color: var(--lighter);
+                &::after {
+                  content: url("../img/tooltip-arrow.png");
+                  position: relative;
+                  top: -44px;
+                  left: 20px;
+                }
+                a {
+                  float: none;
+                  font-family: "Barlow-Medium", sans-serif;
+                  font-size: 1rem;
+                  color: var(--darker);
+                  padding: 0.5em;
+                  text-decoration: none;
+                  display: block;
+                  text-align: right;
+                  cursor: pointer;
+                }
               }
-              a {
-                float: none;
-                font-family: "Barlow-Medium", sans-serif;
-                font-size: 1rem;
-                color: var(--darker);
-                padding: 0.5em;
-                text-decoration: none;
+              .show {
                 display: block;
-                text-align: right;
-                cursor: pointer;
               }
-            }
-            .show {
-              display: block;
             }
           }
-        }
-        .box-blog {
-          margin-right: 1em;
-          span {
-            a {
-              font-family: "Barlow-Medium", sans-serif;
-              font-size: 1rem;
-              text-decoration: none;
-              color: var(--darker);
+          .box-blog {
+            margin-right: 1em;
+            span {
+              a {
+                font-family: "Barlow-Medium", sans-serif;
+                font-size: 1rem;
+                text-decoration: none;
+                color: var(--darker);
+              }
             }
           }
         }
