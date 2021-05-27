@@ -251,13 +251,13 @@ html {
         &.body-area {
           display: flex;
           display: -webkit-flex;
-          > div {
-            &:first-child {
-              margin-right: 2em;
-              margin-bottom: 2em;
-              padding: 0em 1em 0em 1em;
-            }
-          }
+          // > div {
+          //   &:first-child {
+          //     margin-right: 2em;
+          //     margin-bottom: 2em;
+          //     padding: 0em 1em 0em 1em;
+          //   }
+          // }
         }
         &.quote {
           text-align: center;
@@ -515,20 +515,6 @@ html {
   }
 }
 
-// @media only screen and (max-width: 1080px) and (min-width: 1025px) {
-//   html {
-//     body {
-//       #container {
-//         section {
-//           &.cards {
-//             width: 79%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
 /* Containers & Sections for Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   html {
@@ -537,11 +523,19 @@ html {
         section {
           &.top-area {
             h1 {
-              width: 90%;
+              width: 80%;
             }
           }
           &.body-area {
-            width: 73%;
+            width: 90%;
+            padding-left: 2rem;
+            box-sizing: border-box;
+            .body-area_copy {
+              width: 24rem;
+            }
+            .separate-blocks {
+              width: 11.5rem;
+            }
           }
           &.cards {
             width: 74%;
@@ -549,19 +543,23 @@ html {
         }
       }
       #container-100 {
-        section {
-          &.body-area-2 {
-            > div {
-              &:last-child {
-                margin-left: 2em;
-                width: 23em;
+        #container {
+          section {
+            &.body-area-2 {
+              > div {
+                &:first-child {
+                  width: 28.5rem;
+                }
+                &.separate-blocks {
+                  width: 11.5rem;
+                }
               }
             }
-          }
-          &.body-area-3 {
-            .ch-copy {
-              .ch-copy--container {
-                width: 75%;
+            &.body-area-3 {
+              .ch-copy {
+                .ch-copy--container {
+                  width: 75%;
+                }
               }
             }
           }
@@ -649,7 +647,7 @@ html {
 //       #container {
 //         section {
 //           &.cards {
-            
+
 //           }
 //         }
 //       }
@@ -783,7 +781,7 @@ html {
                 width: 100%;
                 height: auto;
               }
-            }            
+            }
             > div {
               width: 100%;
               &:first-child {
@@ -860,7 +858,6 @@ html {
                 overflow: unset;
                 height: 240px;
                 width: 546px;
-
               }
             }
           }

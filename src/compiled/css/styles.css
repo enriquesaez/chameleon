@@ -235,12 +235,6 @@ html body #container-100 section.body-area {
   display: flex;
   display: -webkit-flex;
 }
-html body #container section.body-area > div:first-child,
-html body #container-100 section.body-area > div:first-child {
-  margin-right: 2em;
-  margin-bottom: 2em;
-  padding: 0em 1em 0em 1em;
-}
 html body #container section.quote,
 html body #container-100 section.quote {
   text-align: center;
@@ -449,19 +443,29 @@ html body #container .terms .row .col .terms-contents {
 /* Containers & Sections for Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   html body #container section.top-area h1 {
-    width: 90%;
+    width: 80%;
   }
   html body #container section.body-area {
-    width: 73%;
+    width: 90%;
+    padding-left: 2rem;
+    box-sizing: border-box;
+  }
+  html body #container section.body-area .body-area_copy {
+    width: 24rem;
+  }
+  html body #container section.body-area .separate-blocks {
+    width: 11.5rem;
   }
   html body #container section.cards {
     width: 74%;
   }
-  html body #container-100 section.body-area-2 > div:last-child {
-    margin-left: 2em;
-    width: 23em;
+  html body #container-100 #container section.body-area-2 > div:first-child {
+    width: 28.5rem;
   }
-  html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
+  html body #container-100 #container section.body-area-2 > div.separate-blocks {
+    width: 11.5rem;
+  }
+  html body #container-100 #container section.body-area-3 .ch-copy .ch-copy--container {
     width: 75%;
   }
 }
