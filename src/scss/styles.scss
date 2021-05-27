@@ -528,41 +528,6 @@ html {
   }
 }
 
-/* Containers & Sections || Tablet Portrait*/
-@media only screen and (max-width: 768px) {
-  html {
-    body {
-      #container {
-        section {
-          &.top-area {
-            h1 {
-              width: 65%;
-            }
-            .c-button {
-              width: 7.875rem;
-            }
-          }
-          &.body-area {
-            width: 100%;
-            padding-left: 4.875rem;
-            .body-area_copy {
-              width: 15.5rem;
-            }
-            .separate-blocks {
-              width: 8.875rem;
-            }
-            .body-area_img {
-              img {
-                width: 240px;
-                height: auto;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
 /* Containers & Sections || Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   html {
@@ -605,6 +570,78 @@ html {
   }
 }
 
+/* Containers & Sections || Tablet Portrait*/
+@media only screen and (max-width: 768px) and (min-width: 561px) {
+  html {
+    body {
+      #container {
+        section {
+          &.top-area {
+            h1 {
+              width: 65%;
+            }
+            .c-button {
+              width: 7.875rem;
+            }
+          }
+          &.body-area {
+            padding-left: 4.875rem;
+            .body-area_copy {
+              width: 15.5rem;
+            }
+            .separate-blocks {
+              width: 8.875rem;
+            }
+            .body-area_img {
+              img {
+                width: 240px;
+                height: 195px;
+              }
+            }
+          }
+        }
+      }
+      #container-100 {
+        section {
+          &.body-area-2 {
+            > div {
+              img {
+                width: 675px;
+                height: 126px;
+              }
+              &:first-child {
+                width: 21rem;
+              }
+            }
+          }
+          &.body-area-3 {
+            width: unset;
+            .ch-copy {
+              padding-left: 4.875rem;
+              width: 15.5rem;
+              .ch-copy--container {
+                width: 15.4rem;
+              }
+            }
+            .separate-blocks {
+              width: 12.125rem;
+            }
+            .ch-image {
+              display: unset;
+              overflow: hidden;
+              img {
+                width: 420px;
+                height: auto;
+                overflow: unset;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // @media only screen and (max-width: 1023px) {
 //   html {
 //     body {
@@ -632,6 +669,8 @@ html {
     }
   }
 }
+
+/* Font Styles || Tablet Portrait*/
 @media only screen and (max-width: 768px) {
   html {
     body {
@@ -672,6 +711,7 @@ html {
     }
   }
 }
+/* c-cards Styles || Tablet Portrait*/
 @media only screen and (max-width: 768px) and (min-width: 560px) {
   html {
     body {
@@ -724,6 +764,7 @@ html {
   }
 }
 
+/* Measures containers and c-cars || Tablet Portrait*/
 @media only screen and (max-width: 767px) {
   html {
     body {

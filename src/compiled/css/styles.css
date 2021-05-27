@@ -444,29 +444,6 @@ html body #container .terms .row .col .terms-contents {
     width: 79%;
   }
 }
-/* Containers & Sections || Tablet Portrait*/
-@media only screen and (max-width: 768px) {
-  html body #container section.top-area h1 {
-    width: 65%;
-  }
-  html body #container section.top-area .c-button {
-    width: 7.875rem;
-  }
-  html body #container section.body-area {
-    width: 100%;
-    padding-left: 4.875rem;
-  }
-  html body #container section.body-area .body-area_copy {
-    width: 15.5rem;
-  }
-  html body #container section.body-area .separate-blocks {
-    width: 8.875rem;
-  }
-  html body #container section.body-area .body-area_img img {
-    width: 240px;
-    height: auto;
-  }
-}
 /* Containers & Sections || Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   html body #container section.top-area h1 {
@@ -486,11 +463,63 @@ html body #container .terms .row .col .terms-contents {
     width: 75%;
   }
 }
+/* Containers & Sections || Tablet Portrait*/
+@media only screen and (max-width: 768px) and (min-width: 561px) {
+  html body #container section.top-area h1 {
+    width: 65%;
+  }
+  html body #container section.top-area .c-button {
+    width: 7.875rem;
+  }
+  html body #container section.body-area {
+    padding-left: 4.875rem;
+  }
+  html body #container section.body-area .body-area_copy {
+    width: 15.5rem;
+  }
+  html body #container section.body-area .separate-blocks {
+    width: 8.875rem;
+  }
+  html body #container section.body-area .body-area_img img {
+    width: 240px;
+    height: 195px;
+  }
+  html body #container-100 section.body-area-2 > div img {
+    width: 675px;
+    height: 126px;
+  }
+  html body #container-100 section.body-area-2 > div:first-child {
+    width: 21rem;
+  }
+  html body #container-100 section.body-area-3 {
+    width: unset;
+  }
+  html body #container-100 section.body-area-3 .ch-copy {
+    padding-left: 4.875rem;
+    width: 15.5rem;
+  }
+  html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
+    width: 15.4rem;
+  }
+  html body #container-100 section.body-area-3 .separate-blocks {
+    width: 12.125rem;
+  }
+  html body #container-100 section.body-area-3 .ch-image {
+    display: unset;
+    overflow: hidden;
+  }
+  html body #container-100 section.body-area-3 .ch-image img {
+    width: 420px;
+    height: auto;
+    overflow: unset;
+  }
+}
 @media only screen and (max-width: 1023px) and (min-width: 769px) {
   html body #container section.cards {
     width: 80%;
   }
 }
+/* Font Styles || Tablet Portrait*/
 @media only screen and (max-width: 768px) {
   html body h2 {
     font-size: 1.5em;
@@ -505,6 +534,7 @@ html body #container .terms .row .col .terms-contents {
     font-size: 1rem;
   }
 }
+/* c-cards Styles || Tablet Portrait*/
 @media only screen and (max-width: 768px) and (min-width: 560px) {
   html body h1 {
     font-size: 3em;
@@ -537,6 +567,7 @@ html body #container .terms .row .col .terms-contents {
     width: 100%;
   }
 }
+/* Measures containers and c-cars || Tablet Portrait*/
 @media only screen and (max-width: 767px) {
   html body #container {
     width: 100%;
