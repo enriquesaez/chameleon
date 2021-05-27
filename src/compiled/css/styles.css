@@ -138,10 +138,10 @@ html body #container section.body-area {
   display: -webkit-flex;
   padding-left: 9.25rem;
 }
-html body #container section.body-area > div:first-child {
+html body #container section.body-area .body-area_copy {
   width: 29rem;
 }
-html body #container section.body-area > div.separate-blocks {
+html body #container section.body-area .separate-blocks {
   width: 12.125rem;
 }
 html body #container section.body-area > div p {
@@ -444,7 +444,34 @@ html body #container .terms .row .col .terms-contents {
     width: 79%;
   }
 }
-@media only screen and (max-width: 1024px) {
+/* Containers & Sections || Tablet Portrait*/
+@media only screen and (max-width: 768px) {
+  html body #container section.top-area h1 {
+    width: 65%;
+  }
+  html body #container section.top-area .c-button {
+    width: 7.875rem;
+  }
+  html body #container section.body-area {
+    width: 100%;
+    padding-left: 4.875rem;
+  }
+  html body #container section.body-area .body-area_copy {
+    width: 15.5rem;
+  }
+  html body #container section.body-area .separate-blocks {
+    width: 8.875rem;
+  }
+  html body #container section.body-area .body-area_img img {
+    width: 240px;
+    height: auto;
+  }
+}
+/* Containers & Sections || Tablet Landscape*/
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  html body #container section.top-area h1 {
+    width: 90%;
+  }
   html body #container section.body-area {
     width: 73%;
   }
@@ -457,11 +484,6 @@ html body #container .terms .row .col .terms-contents {
   }
   html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
     width: 75%;
-  }
-}
-@media only screen and (max-width: 1023px) {
-  html body #container section.body-area {
-    width: 93%;
   }
 }
 @media only screen and (max-width: 1023px) and (min-width: 769px) {

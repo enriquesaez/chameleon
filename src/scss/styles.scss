@@ -149,14 +149,13 @@ html {
           display: -ms-flexbox;
           display: -webkit-flex;
           padding-left: 9.25rem;
+          .body-area_copy {
+            width: 29rem;
+          }
+          .separate-blocks {
+            width: 12.125rem;
+          }
           > div {
-            &:first-child {
-              width: 29rem;
-              // margin-right: 12.25rem;
-            }
-            &.separate-blocks {
-              width: 12.125rem;
-            }
             p {
               font-family: "Barlow-Regular", sans-serif;
               font-size: 1.5em;
@@ -529,11 +528,52 @@ html {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+/* Containers & Sections || Tablet Portrait*/
+@media only screen and (max-width: 768px) {
   html {
     body {
       #container {
         section {
+          &.top-area {
+            h1 {
+              width: 65%;
+            }
+            .c-button {
+              width: 7.875rem;
+            }
+          }
+          &.body-area {
+            width: 100%;
+            padding-left: 4.875rem;
+            .body-area_copy {
+              width: 15.5rem;
+            }
+            .separate-blocks {
+              width: 8.875rem;
+            }
+            .body-area_img {
+              img {
+                width: 240px;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Containers & Sections || Tablet Landscape*/
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  html {
+    body {
+      #container {
+        section {
+          &.top-area {
+            h1 {
+              width: 90%;
+            }
+          }
           &.body-area {
             width: 73%;
           }
@@ -565,19 +605,19 @@ html {
   }
 }
 
-@media only screen and (max-width: 1023px) {
-  html {
-    body {
-      #container {
-        section {
-          &.body-area {
-            width: 93%;
-          }
-        }
-      }
-    }
-  }
-}
+// @media only screen and (max-width: 1023px) {
+//   html {
+//     body {
+//       #container {
+//         section {
+//           &.body-area {
+//             width: 93%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 @media only screen and (max-width: 1023px) and (min-width: 769px) {
   html {
