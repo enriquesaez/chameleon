@@ -24,7 +24,7 @@ html body header {
   width: 100%;
   height: 4.875em;
   padding: 0 1.5em 0 1.15em;
-  margin-bottom: 3.6rem;
+  margin-bottom: 5rem;
 }
 html body header .c-menu-mobile {
   display: none;
@@ -124,8 +124,8 @@ html body header .ch-right .ch-try {
   margin-bottom: 0.5em;
 }
 html body #container {
-  max-width: 90em;
-  padding: 1.4em 0;
+  max-width: 90rem;
+  padding: 0rem;
 }
 html body #container .c-button {
   width: 10.125rem;
