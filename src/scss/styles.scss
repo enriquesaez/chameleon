@@ -783,6 +783,20 @@ html {
           &.body-area {
             text-align: center;
             display: unset;
+            padding: 0rem;
+            .body-area_copy {
+              width: 100%;
+            }
+            .separate-blocks {
+              width: 100%;
+              margin-bottom: 3rem;
+            }
+            .body-area_img {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }            
             > div {
               width: 100%;
               &:first-child {
@@ -815,14 +829,17 @@ html {
             flex-direction: column-reverse;
             -ms-flex-direction: column-reverse;
             -webkit-flex-direction: column-reverse;
+            .separate-blocks {
+              display: none;
+            }
             > div {
               &:first-child {
-                width: 94%;
+                width: 100%;
                 margin-right: 0em;
               }
               &:last-child {
                 margin-left: 0em;
-                margin-bottom: 2em;
+                margin-bottom: 4em;
                 padding: 0em 1.6em;
                 width: unset;
               }

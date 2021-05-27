@@ -586,6 +586,18 @@ html body #container .terms .row .col .terms-contents {
   html body #container section.body-area {
     text-align: center;
     display: unset;
+    padding: 0rem;
+  }
+  html body #container section.body-area .body-area_copy {
+    width: 100%;
+  }
+  html body #container section.body-area .separate-blocks {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  html body #container section.body-area .body-area_img img {
+    width: 100%;
+    height: auto;
   }
   html body #container section.body-area > div {
     width: 100%;
@@ -611,13 +623,16 @@ html body #container .terms .row .col .terms-contents {
     text-align: center;
     flex-direction: column-reverse;
   }
+  html body #container-100 section.body-area-2 .separate-blocks {
+    display: none;
+  }
   html body #container-100 section.body-area-2 > div:first-child {
-    width: 94%;
+    width: 100%;
     margin-right: 0em;
   }
   html body #container-100 section.body-area-2 > div:last-child {
     margin-left: 0em;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     padding: 0em 1.6em;
     width: unset;
   }
