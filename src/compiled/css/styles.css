@@ -464,7 +464,7 @@ html body #container .terms .row .col .terms-contents {
   }
 }
 /* Containers & Sections || Tablet Portrait*/
-@media only screen and (max-width: 768px) and (min-width: 561px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
   html body #container section.top-area h1 {
     width: 65%;
   }
@@ -564,11 +564,12 @@ html body #container .terms .row .col .terms-contents {
     width: 100%;
   }
   html body #container .c-button {
-    width: 100%;
+    width: 7.875rem;
+    height: 2.5rem;
   }
 }
-/* Measures containers and c-cars || Tablet Portrait*/
-@media only screen and (max-width: 767px) {
+/* Containers, Sectors c-cars || Mobile */
+@media only screen and (max-width: 599px) {
   html body #container {
     width: 100%;
     padding: 0.9em;
@@ -578,6 +579,9 @@ html body #container .terms .row .col .terms-contents {
   }
   html body #container section.top-area {
     width: 100%;
+  }
+  html body #container section.top-area h1 {
+    width: unset;
   }
   html body #container section.body-area {
     text-align: center;
@@ -641,7 +645,8 @@ html body #container-100 section.body-area-3 .ch-image {
     left: 2.25rem;
   }
 }
-@media only screen and (max-width: 559px) {
+/* Header & Footer Styles || Mobile*/
+@media only screen and (max-width: 599px) {
   html body header .ch-logo,
 html body header .ch-right {
     display: none;
@@ -933,7 +938,7 @@ html body header .ch-right {
 .c-menu-mobile .cmb-container a .logo-mobile {
   position: fixed;
   z-index: 4;
-  width: 80%;
+  width: 55%;
   height: 3.4rem;
   display: flex;
   display: -webkit-flex;
@@ -1003,15 +1008,22 @@ html body header .ch-right {
 }
 .c-menu-mobile .cmb-container input ~ nav > ul {
   text-align: center;
-  position: absolute;
-  top: 11%;
-  left: 5%;
-  right: 5%;
+  position: relative;
+  top: 8%;
+  right: 15%;
 }
 .c-menu-mobile .cmb-container input ~ nav > ul > li {
   opacity: 0;
   transition: 0.3s;
   transition-delay: 0s;
+  padding: 30px 12px;
+}
+.c-menu-mobile .cmb-container input ~ nav > ul > li:last-child {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
 }
 .c-menu-mobile .cmb-container input ~ nav > ul > li > a {
   text-decoration: none;
@@ -1019,10 +1031,8 @@ html body header .ch-right {
   font-family: "Barlow-Medium", sans-serif;
   font-size: 1rem;
   display: block;
-  padding: 30px 12px;
 }
-.c-menu-mobile .cmb-container input ~ nav > ul > li > a.c-button {
-  padding: unset;
+.c-menu-mobile .cmb-container input ~ nav > ul > li .c-button {
   display: flex;
   display: -webkit-flex;
   justify-content: center;
@@ -1031,13 +1041,7 @@ html body header .ch-right {
   align-items: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-}
-.c-menu-mobile .cmb-container input ~ nav > ul > li > a.active {
-  color: var(--brand-primary);
-}
-.c-menu-mobile .cmb-container input ~ nav > ul > li .c-button {
-  width: 100%;
-  margin-top: 1.5rem;
+  width: 60%;
 }
 
 /* c-modal */

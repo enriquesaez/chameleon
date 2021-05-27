@@ -571,7 +571,7 @@ html {
 }
 
 /* Containers & Sections || Tablet Portrait*/
-@media only screen and (max-width: 768px) and (min-width: 561px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
   html {
     body {
       #container {
@@ -757,15 +757,16 @@ html {
           }
         }
         .c-button {
-          width: 100%;
+          width: 7.875rem;
+          height: 2.5rem;
         }
       }
     }
   }
 }
 
-/* Measures containers and c-cars || Tablet Portrait*/
-@media only screen and (max-width: 767px) {
+/* Containers, Sectors c-cars || Mobile */
+@media only screen and (max-width: 599px) {
   html {
     body {
       #container {
@@ -775,6 +776,9 @@ html {
           width: 100%;
           &.top-area {
             width: 100%;
+            h1 {
+              width: unset;
+            }
           }
           &.body-area {
             text-align: center;
@@ -854,7 +858,8 @@ html {
     }
   }
 }
-@media only screen and (max-width: 559px) {
+/* Header & Footer Styles || Mobile*/
+@media only screen and (max-width: 599px) {
   html {
     body {
       header {
