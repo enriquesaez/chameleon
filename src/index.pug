@@ -33,7 +33,7 @@ html(lang='en')
         div.flex-column
           h2 Accede rápidamente a tus proyectos
           p Podrás ver de un vistazo su estado global con un solo click, acceder al histórico y anticiparte a la gestión de proyectos futuros.
-        div.separate-blocks
+        .separate-blocks
         div.flex.flex-justify-start
           img(src="img/proyectos.png", alt="")
     
@@ -42,18 +42,19 @@ html(lang='en')
         section.body-area-2
           div
             img(src="img/hitos.png", alt="")
-          div.separate-blocks
+          .separate-blocks
           .flex-column
             h2 Visualiza la información relevante
             p Obtén información de tus hitos, entregas y estado global de tus tareas.
 
-      section.body-area-3
-        .ch-copy.flex.flex-justify-end
-          .ch-copy--container
-            h2 Identifica y elimina impedimentos
-            p Resuelve rápidamente riesgos, bloqueos y dependencias.
-        .ch-image
-          img(src="img/dependencias.png", alt="")
+        section.body-area-3
+          .ch-copy
+            .ch-copy--container
+              h2 Identifica y elimina impedimentos
+              p Resuelve rápidamente riesgos, bloqueos y dependencias.
+          .separate-blocks
+          .ch-image
+            img(src="img/dependencias.png", alt="")
       
     #container
       section.quote.flex.flex-justify-center

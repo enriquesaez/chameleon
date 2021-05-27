@@ -148,10 +148,10 @@ html {
           display: flex;
           display: -ms-flexbox;
           display: -webkit-flex;
-          padding-left: 12.25rem;
+          padding-left: 9.25rem;
           > div {
             &:first-child {
-              width: 26.688rem;
+              width: 29rem;
               // margin-right: 12.25rem;
             }
             &.separate-blocks {
@@ -165,6 +165,9 @@ html {
             }
           }
         }
+      }
+      .row {
+        margin-bottom: 3rem;
       }
     }
     #container-100 {
@@ -207,14 +210,11 @@ html {
           display: flex;
           display: -webkit-flex;
           width: 100%;
-          .ch-copy,
-          .ch-image {
-            width: 50%;
-          }
+          padding-left: 9.25rem;
           .ch-copy {
-            margin-right: 4em;
+            // margin-right: 4em;
+            width: 29rem;
             .ch-copy--container {
-              width: 60%;
               p {
                 font-family: "Barlow-Regular", sans-serif;
                 font-size: 1.5em;
@@ -223,8 +223,11 @@ html {
               }
             }
           }
+          .separate-blocks {
+            width: 12.125rem;             
+          }
           .ch-image {
-            margin-left: 4em;
+            // margin-left: 4em;
             overflow: hidden;
           }
         }

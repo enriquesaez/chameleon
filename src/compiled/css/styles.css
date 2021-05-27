@@ -136,10 +136,10 @@ html body #container section.top-area h1 {
 html body #container section.body-area {
   display: flex;
   display: -webkit-flex;
-  padding-left: 12.25rem;
+  padding-left: 9.25rem;
 }
 html body #container section.body-area > div:first-child {
-  width: 26.688rem;
+  width: 29rem;
 }
 html body #container section.body-area > div.separate-blocks {
   width: 12.125rem;
@@ -149,6 +149,9 @@ html body #container section.body-area > div p {
   font-size: 1.5em;
   line-height: 1.33;
   color: var(--scale--darker);
+}
+html body #container .row {
+  margin-bottom: 3rem;
 }
 html body #container-100 {
   width: 100%;
@@ -187,16 +190,10 @@ html body #container-100 section.body-area-3 {
   display: flex;
   display: -webkit-flex;
   width: 100%;
-}
-html body #container-100 section.body-area-3 .ch-copy,
-html body #container-100 section.body-area-3 .ch-image {
-  width: 50%;
+  padding-left: 9.25rem;
 }
 html body #container-100 section.body-area-3 .ch-copy {
-  margin-right: 4em;
-}
-html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
-  width: 60%;
+  width: 29rem;
 }
 html body #container-100 section.body-area-3 .ch-copy .ch-copy--container p {
   font-family: "Barlow-Regular", sans-serif;
@@ -204,8 +201,10 @@ html body #container-100 section.body-area-3 .ch-copy .ch-copy--container p {
   line-height: 1.33;
   color: var(--scale--darker);
 }
+html body #container-100 section.body-area-3 .separate-blocks {
+  width: 12.125rem;
+}
 html body #container-100 section.body-area-3 .ch-image {
-  margin-left: 4em;
   overflow: hidden;
 }
 html body #container,
