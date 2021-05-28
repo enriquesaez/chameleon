@@ -480,8 +480,18 @@ html body #container .terms .row .col .terms-contents {
   html body #container-100 #container section.body-area-2 > div.separate-blocks {
     width: 11.5rem;
   }
+  html body #container-100 #container section.body-area-3 .ch-copy {
+    padding-left: 5rem;
+  }
   html body #container-100 #container section.body-area-3 .ch-copy .ch-copy--container {
-    width: 75%;
+    width: 20rem;
+    margin: 0rem;
+  }
+  html body #container-100 #container section.body-area-3 .separate-blocks {
+    width: 24rem;
+  }
+  html body #container-100 #container section.body-area-3 .ch-image {
+    display: block;
   }
 }
 /* Containers & Sections for Tablet Portrait*/

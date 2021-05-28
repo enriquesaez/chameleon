@@ -591,9 +591,17 @@ html {
             }
             &.body-area-3 {
               .ch-copy {
+                padding-left: 5rem;
                 .ch-copy--container {
-                  width: 75%;
+                  width: 20rem;
+                  margin: 0rem;
                 }
+              }
+              .separate-blocks {
+                width: 24rem;
+              }
+              .ch-image {
+                display: block;
               }
             }
           }
