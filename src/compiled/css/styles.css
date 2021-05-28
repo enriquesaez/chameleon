@@ -424,7 +424,7 @@ html body #container .terms .row .col .terms-contents {
   }
 }
 /* End Terms & Conditions */
-/* Comun measures for Desktop, Tablet & mobile */
+/* Common measures for Desktop, Tablet & mobile */
 @media only screen and (max-width: 1400px) and (min-width: 1266px) {
   html body #container section.cards {
     width: 88%;
@@ -432,7 +432,22 @@ html body #container .terms .row .col .terms-contents {
     justify-content: space-evenly;
   }
 }
-/* Comun measures for Desktop, Tablet & mobile */
+/* Common measures in containers, sections and separate-bloks for Desktop 1280px */
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  html body #container section.body-area {
+    padding-left: 6.875rem;
+  }
+  html body #container-100 section.body-area-2 > div:first-child {
+    width: 36.8rem;
+  }
+  html body #container-100 section.body-area-3 .ch-copy {
+    padding-left: 6.875rem;
+  }
+  html body #container-100 section.body-area-3 .separate-blocks {
+    width: 17rem;
+  }
+}
+/* Common measures for Desktop, Tablet & mobile */
 @media only screen and (max-width: 1265px) and (min-width: 769px) {
   html body #container section.cards {
     width: 70%;
