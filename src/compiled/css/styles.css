@@ -458,7 +458,7 @@ html body #container .terms .row .col .terms-contents {
 /* Containers & Sections for Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   html body #container section.top-area h1 {
-    width: 80%;
+    width: 85%;
   }
   html body #container section.body-area {
     width: 90%;
