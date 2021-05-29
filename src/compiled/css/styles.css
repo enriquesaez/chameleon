@@ -940,7 +940,7 @@ html body header .ch-right {
     height: 1.8rem;
   }
   #cookiesBox .coockies-body {
-    padding: 1.4em 1.4em 3em 2.4em;
+    padding: 1.5em 1rem;
   }
   #cookiesBox .coockies-body .col-img-cookie {
     display: none;
@@ -958,7 +958,7 @@ html body header .ch-right {
   }
   #cookiesBox .coockies-body {
     height: 21.8em;
-    padding: 1.4em 1.4em 2em 2.4em;
+    padding: 1.5em 1rem;
   }
 }
 /* END c-cookiesBox component */
