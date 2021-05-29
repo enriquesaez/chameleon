@@ -515,6 +515,9 @@ html body #container .terms .row .col .terms-contents {
     width: 240px;
     height: 195px;
   }
+  html body #container section.quote {
+    width: 69.6%;
+  }
   html body #container-100 section.body-area-2 > div img {
     width: 675px;
     height: 126px;
