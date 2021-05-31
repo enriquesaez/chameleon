@@ -1,6 +1,9 @@
 #cookiesBox.flex.flex-column(style='display: none;')
   .cookies-header.flex.flex-justify-end.flex-align-end
     button(onclick='acceptCookies()') ×
+    button.mobile-ico-close(onclick='acceptCookies()')
+      img(src="svg/icon-close.svg", alt="Aceptar y cerrar cookies")
+
   .coockies-body.flex
     .col-img-cookie
       img(src="img/img-cookie.png", alt="")

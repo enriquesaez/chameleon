@@ -31,6 +31,9 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       font-weight: 200;
+      &.mobile-ico-close {
+        display: none;
+      }
     }
   }
   .coockies-body {
@@ -70,9 +73,14 @@
       border-bottom: 1px solid var(--scale--lighter);
       padding: 2.4rem 1rem 1.2rem;
       button {
-        font-size: 3.2rem;
-        font-weight: 700;
-        height: 1.8rem;
+        display: none;
+        &.mobile-ico-close {
+          display: block;
+          height: 1.5rem;
+          img {
+            transform: rotate(45deg);
+          }
+        }
       }
     }
     .coockies-body {

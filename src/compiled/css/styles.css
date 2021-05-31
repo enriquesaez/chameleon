@@ -898,6 +898,9 @@ html body header .ch-right {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 200;
 }
+#cookiesBox .cookies-header button.mobile-ico-close {
+  display: none;
+}
 #cookiesBox .coockies-body {
   height: 16.8em;
   padding-top: 0.9em;
@@ -935,9 +938,14 @@ html body header .ch-right {
     padding: 2.4rem 1rem 1.2rem;
   }
   #cookiesBox .cookies-header button {
-    font-size: 3.2rem;
-    font-weight: 700;
-    height: 1.8rem;
+    display: none;
+  }
+  #cookiesBox .cookies-header button.mobile-ico-close {
+    display: block;
+    height: 1.5rem;
+  }
+  #cookiesBox .cookies-header button.mobile-ico-close img {
+    transform: rotate(45deg);
   }
   #cookiesBox .coockies-body {
     padding: 1.5em 1rem;
