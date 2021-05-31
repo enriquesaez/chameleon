@@ -945,6 +945,11 @@ html {
             .box-lang-footer {
               margin-right: 0rem;
               margin-bottom: 2rem;
+              .navbar {
+                .dropdown-content {
+                  margin-top: 1rem;
+                }
+              }
             }
             .box-blog {
               margin-right: 0em;
