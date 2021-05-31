@@ -885,7 +885,7 @@ html body header .ch-right {
 }
 #cookiesBox .cookies-header {
   box-sizing: border-box;
-  height: 2rem;
+  height: 1rem;
 }
 #cookiesBox .cookies-header button {
   background-color: unset;
