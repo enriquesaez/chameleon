@@ -131,6 +131,10 @@
               font-family: "Barlow-Medium", sans-serif;
               font-size: 1rem;
               display: block;
+              &.active {
+                color: var(--brand-primary);
+                margin-right: 1rem;
+              }
             }
             .c-button {
               display: flex;

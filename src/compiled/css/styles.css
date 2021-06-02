@@ -1092,6 +1092,10 @@ html body header .ch-right {
   font-size: 1rem;
   display: block;
 }
+.c-menu-mobile .cmb-container input ~ nav > ul > li > a.active {
+  color: var(--brand-primary);
+  margin-right: 1rem;
+}
 .c-menu-mobile .cmb-container input ~ nav > ul > li .c-button {
   display: flex;
   display: -webkit-flex;
