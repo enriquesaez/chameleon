@@ -54,17 +54,18 @@ html(lang='en')
                 a(href="https://app.chameleon.vision/") Login
               li
                 a(href="http://bit.ly/3eL2dgF").c-button
-                    span Prueba gratis                
+                    span Try Free               
 
     #container
       section.top-area.flex-column.flex-asis
         h1 The tool that gives you 360° vision of your projects
         include ../components/c-button/c-button.pug
       section.body-area
-        div.flex-column
+        .body-area_copy.flex-column
           h2 Quickly access your projects
           p See, at a glance, the global status with just one click, access historical data and anticipate future project management.
-        div.flex.flex-justify-center
+        .separate-blocks
+        .body-area_img.flex.flex-justify-start
           img(src="../img/proyectos.png", alt="")
     
     #container-100
