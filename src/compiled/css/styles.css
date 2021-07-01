@@ -25,6 +25,9 @@ html body header {
   height: 4.875em;
   padding: 0 1rem 0 1rem;
   margin-bottom: 5rem;
+  position: fixed;
+  top: 0;
+  background-color: var(--lighter);
 }
 html body header .c-menu-mobile {
   display: none;
@@ -124,11 +127,15 @@ html body header .ch-right .ch-try {
   margin-bottom: 0.5em;
 }
 html body #container {
+  margin-top: 5rem;
   max-width: 90rem;
   padding: 0rem;
 }
 html body #container .c-button {
   width: 10.125rem;
+}
+html body #container section.top-area {
+  margin-top: 9.9rem;
 }
 html body #container section.top-area h1 {
   width: 90%;
@@ -457,6 +464,9 @@ html body #container .terms .row .col .terms-contents {
 }
 /* Containers & Sections for Tablet Landscape*/
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
+  html body #container section.top-area {
+    margin-top: 11rem;
+  }
   html body #container section.top-area h1 {
     width: 85%;
   }
@@ -496,6 +506,9 @@ html body #container .terms .row .col .terms-contents {
 }
 /* Containers & Sections for Tablet Portrait*/
 @media only screen and (max-width: 768px) and (min-width: 600px) {
+  html body #container section.top-area {
+    margin-top: 10rem;
+  }
   html body #container section.top-area h1 {
     width: 65%;
   }
@@ -607,6 +620,7 @@ html body #container .terms .row .col .terms-contents {
     width: 100%;
   }
   html body #container section.top-area {
+    margin-top: 7rem;
     width: 100%;
   }
   html body #container section.top-area h1 {
