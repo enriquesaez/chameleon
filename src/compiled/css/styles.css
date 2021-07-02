@@ -487,7 +487,7 @@ html body #container .terms .row .col .terms-contents {
     width: 11.5rem;
   }
   html body #container section.cards {
-    width: 74%;
+    width: 88%;
   }
   html body #container-100 #container section.body-area-2 > div:first-child {
     width: 28.5rem;
@@ -853,6 +853,11 @@ html body header .ch-right {
   }
   .c-card .card-square.last {
     margin-right: 0rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .c-card .card-square {
+    width: 12.75em;
   }
 }
 @media only screen and (max-width: 768px) {

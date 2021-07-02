@@ -220,9 +220,9 @@ html {
             display: flex;
             display: -ms-flexbox;
             display: -webkit-flex;
-            align-items: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
+              align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
             .ch-copy--container {
               width: 29rem;
               p {
@@ -584,7 +584,7 @@ html {
             }
           }
           &.cards {
-            width: 74%;
+            width: 88%;
           }
         }
       }

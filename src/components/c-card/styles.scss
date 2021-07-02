@@ -53,9 +53,17 @@
       height: auto;
       padding: 1.3em 1.1em;
       margin-right: 0.55rem;
-      &.last{
+      &.last {
         margin-right: 0rem;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .c-card {
+    .card-square {
+      width: 12.75em;
     }
   }
 }
