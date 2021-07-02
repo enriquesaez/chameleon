@@ -201,6 +201,11 @@ html body #container-100 section.body-area-3 {
 html body #container-100 section.body-area-3 .ch-copy {
   width: 29rem;
   padding-left: 9.25rem;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
 }
 html body #container-100 section.body-area-3 .ch-copy .ch-copy--container {
   width: 29rem;
